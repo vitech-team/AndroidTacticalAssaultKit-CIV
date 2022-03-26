@@ -109,9 +109,9 @@ jobs:
         bash ./gradlew assembleCivRelease
     - name: generate ATAK CIV SDK package
       run: |
-        ls /atak/ATAK/app/build/outputs
-        ls /atak/ATAK/app/build/outputs/apk
-        ls /atak/ATAK/app/build/outputs/apk/civ
+        ls ./atak/ATAK/app/build/outputs
+        ls ./atak/ATAK/app/build/outputs/apk
+        ls ./atak/ATAK/app/build/outputs/apk/civ
         ls ./atak/ATAK/app/build/outputs/apk/civ/release
         cp ./atak/ATAK/app/build/outputs/apk/civ/release/*-release.apk ./pluginsdk/atak.apk
         mv pluginsdk atak-civ
