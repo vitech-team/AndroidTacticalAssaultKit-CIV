@@ -472,7 +472,7 @@
     <string name="preferences_text141">Розмір піктограми та тексту</string>
     <string name="preferences_text142">Відносне масштабування, яке застосовується до піктограм і розміру тексту</string>
     <string name="preferences_text143">Розмір підпису за замовчуванням</string>
-    <string name="preferences_text144">Розмір шрифту за замовчуванням, який використовується для позначення об\'єктів на карті. Для цього необхідний перезапуск, щоб усі об\'єкти могли використовувати новий розмір шрифту.</string>
+    <string name="preferences_text144">Розмір шрифту за замовчуванням, який використовується для підписування об\'єктів на карті. Необхідно перезапустити програму, щоб усі об\'єкти могли використовувати новий розмір шрифту.</string>
     <string name="preferences_text145">Дозволяє затемнювати/освітлювати всі елементи карти за допомогою інструмента «Яскравість».</string>
     <string name="preferences_text146">Затемнення/освітлення накладання карти</string>
     <string name="preferences_text147">Налаштуйте параметри відображення операційної системи, включно із часом очікування екрана</string>
@@ -480,8 +480,8 @@
     <string name="preferences_text149">Управління поведінкою та зовнішнім виглядом контуру шару</string>
     <string name="preferences_text150">Управління параметрами закадрового індикатора</string>
     <string name="preferences_text151">Стилі фігур за замовчуванням встановлюються під час імпорту форматів даних, які не підтримують стилізацію (наприклад, Shapefile, GPX)</string>
-    <string name="preferences_text152">Ширина/висота диспетчера накладання</string>
-    <string name="preferences_text153">Налаштуйте ширину/висоту вікна диспетчера накладання</string>
+    <string name="preferences_text152">Ширина/висота управління накладеннями</string>
+    <string name="preferences_text153">Налаштуйте ширину/висоту вікна управління накладеннями</string>
     <string name="preferences_text154">Примусова яскравість програми</string>
     <string name="preferences_text155">Збільшення яскравості програми, яка вручну перевизначає автоматичну яскравість Android</string>
     <string name="preferences_text156">Вимкнути заставку/блокування екрана</string>
@@ -490,10 +490,10 @@
     <string name="preferences_text159">Якщо позначено, підсвітку клавіатури буде вимкнено на платформах, які це підтримують. Якщо цей параметр не підтримується, зміни не застосуються.</string>
     <string name="preferences_text160">Повернути альбомну орієнтацію</string>
     <string name="preferences_text161">Дзеркальна альбомна орієнтація</string>
-    <string name="preferences_text162">Скоротити довгі назви маркерів</string>
-    <string name="preferences_text163">Скролити назви маркерів</string>
-    <string name="preferences_text164">Показати назви маркерів</string>
-    <string name="preferences_text165">Показувати назви під маркерами</string>
+    <string name="preferences_text162">Скорочувати довгі підписи маркерів</string>
+    <string name="preferences_text163">Скролити підписи маркерів</string>
+    <string name="preferences_text164">Показувати підписи маркерів</string>
+    <string name="preferences_text165">Показувати підписи під маркерами</string>
     <string name="preferences_text166">Показувати сповіщення для інших користувачів</string>
     <string name="preferences_text167">Показувати сповіщення Android про отримання звіту SA від інших користувачів</string>
     <string name="preferences_text168">Час згасання сповіщень</string>
@@ -1034,8 +1034,8 @@
     <string name="rb_prompt3">Торкніться точки, щоб виміряти дальність і кут</string>
     <string name="rb_measure_prompt">Торкніться точки, до якої вимірювати.</string>
     <string name="rbcircle_center_prompt">Торкніться потрібної центральної точки.</string>
-    <string name="rb_bullseye">Торкніться карти, щоб позначити центр.\nУтримуйте, щоб ввести координати вручну.</string>
-    <string name="rb_bullseye_edge">Торкніться зовнішнього краю центру.</string>
+    <string name="rb_bullseye">Торкніться карти, щоб позначити центр мішені.\nУтримуйте, щоб ввести координати вручну.</string>
+    <string name="rb_bullseye_edge">Торкніться зовнішнього краю мішені.</string>
     <string name="tn_no_units">TN</string>
     <string name="mz_no_units">МЗ</string>
     <string name="gn_no_units" translatable="false">GN</string>
@@ -1580,7 +1580,7 @@
     <string name="export_failed">Помилка експорту</string>
     <string name="iconset_export_fail">"Не вдалося експортувати набір піктограм: "</string>
     <string name="iconset_export_fail2">Не вдалося експортувати набір піктограм</string>
-    <string name="mapping_title">Виберіть мапінг CoT за замовчуванням</string>
+    <string name="mapping_title">Виберіть картографію CoT за замовчуванням</string>
     <string name="mapping_checkbox">Додати всі піктограми до цього набору піктограм</string>
     <string name="mapping_selected">" (*Вибрано)"</string>
     <string name="spot_map">Точкова карта</string>
@@ -1773,7 +1773,7 @@
 
     <!--Nineline-->
     <string name="nineline_text1">План гри</string>
-    <string name="nineline_text2">Назва</string>
+    <string name="nineline_text2">Підпис</string>
     <string name="nineline_text3">Ціль</string>
     <string name="nineline_text4">Зауваження/Обмеження</string>
     <string name="nineline_text5">Off-Set</string>
@@ -2157,10 +2157,10 @@
     <string name="reconnect">Повторне підключення</string>
 
     <!--Details-->
-    <string name="details_text1">Показати підписи</string>
+    <string name="details_text1">Показувати підписи</string>
     <string name="details_text2">Стерти все</string>
     <string name="details_text3">Замкнути форму</string>
-    <string name="details_text4">Тільки назва</string>
+    <string name="details_text4">Тільки підпис</string>
     <string name="details_text5">Розташування сенсора</string>
     <string name="details_text6">Показати накладання FOV</string>
     <string name="details_text7">URL відео:</string>
@@ -2334,8 +2334,8 @@
     <string name="tool_text5">Не вдалося скасувати операцію\u2026</string>
     <string name="tool_text6">Не вдалося скасувати операцію\u2026</string>
     <string name="tool_text3">Перетягніть і відкрийте меню налаштування інструментів</string>
-    <string name="tool_text7">Введіть назву</string>
-    <string name="tool_text8">"Назва має бути унікальною: "</string>
+    <string name="tool_text7">Введіть підпис</string>
+    <string name="tool_text8">"Підпис має бути унікальним: "</string>
     <string name="tool_text9">Забагато макетів, видаліть один, щоб зберегти новий макет</string>
     <string name="tool_text10">Неможливо видалити панель інструментів за замовчуванням</string>
     <string name="tool_text12">Не вдалося видалити панель інструментів</string>
@@ -2343,7 +2343,7 @@
     <string name="tool_text14">Меню переповнене…</string>
     <string name="tool_text15">Скинути всі панелі інструментів</string>
     <string name="tool_text16">Усі збережені панелі інструментів будуть видалені</string>
-    <string name="tool_text17">Введіть назву для нової панелі інструментів</string>
+    <string name="tool_text17">Введіть назву нової панелі інструментів</string>
     <string name="tool_text18">Не вдалося зберегти нову панель інструментів</string>
     <string name="tool_text19">"Не вдалося зберегти: "</string>
     <string name="tool_text20">Не вдалося завантажити меню панелі інструментів</string>
@@ -2363,8 +2363,8 @@
     <string name="tool_text36">Пристрій не має компаса</string>
     <string name="tool_text38">Пристрій не має внутрішнього GPS</string>
     <string name="failed_to_save_changes">Не вдалося зберегти зміни</string>
-    <string name="label_required">Назва обов\'язкова</string>
-    <string name="label_may_not_be_reused">Назву \'За замовчуванням\' не можна використовувати повторно</string>
+    <string name="label_required">Підпис обов\'язковий</string>
+    <string name="label_may_not_be_reused">Підпис \'За замовчуванням\' не можна використовувати повторно</string>
     <string name="failed_to_add">"Не вдалося додати: "</string>
     <string name="rb_circle_prefix">Окружність дальності і кута\u0020</string>
     <string name="address_lookup_error">Помилка пошуку адреси</string>
@@ -2611,7 +2611,7 @@
     <string name="map_source">Джерело карти</string>
     <string name="select_area">Виберіть область</string>
     <string name="download">Завантажити</string>
-    <string name="maps_and_favorites">Карти та вибране</string>
+    <string name="maps_and_favorites">Карти і вибране</string>
     <string name="disp_mobile_img_title">Відображення мобільних зображень за допомогою традиційних джерел даних</string>
     <string name="disp_mobile_img_summ">Дозволяє відображати не накладені мобільні зображення із традиційними картами та наборами даних зображень. Якщо мобільні зображення з одного джерела накладаються, відображатимуться лише деякі з них. У цьому випадку краще використовувати вкладку \"Мобільні\", щоб правильно відображати всі дані. Зміна цього параметра вимагає перезавантаження.</string>
     <string name="wms_preferences">Налаштування WMS</string>
@@ -2686,7 +2686,7 @@
     <string name="show_terrainslope">Показати ухил місцевості</string>
 
     <!--Overlay Manager-->
-    <string name="overlay_manager">Менеджер накладання</string>
+    <string name="overlay_manager">Управління накладеннями</string>
     <string name="process">Процес</string>
     <string name="select_all_om">\u0020\u0020\u0020Вибрати все</string>
     <string name="attached_to">Прикріплений до</string>
@@ -3323,7 +3323,7 @@
     <string name="app_is_current">Додаток актуальний</string>
     <string name="more_details">Детальніше</string>
     <string name="message">Повідомлення</string>
-    <string name="label">Назва</string>
+    <string name="label">Підпис</string>
     <string name="loaded">Завантажено</string>
     <string name="current">Поточний</string>
     <string name="available">Доступний</string>
@@ -3383,7 +3383,7 @@
     <string name="_7_0_mi" translatable="false">7.0 mi</string>
     <string name="nm" translatable="false">NM</string>
     <string name="f" translatable="false">F</string>
-    <string name="show_labels">Показати назви</string>
+    <string name="show_labels">Показувати підписи</string>
     <string name="tactical_overlay">Тактичне накладання</string>
     <string name="feet">feet</string>
     <string name="remarksz_with_colon">Зауваження</string>
@@ -3450,7 +3450,7 @@
     <string name="IntelDumpReceiver_url" translatable="false">http://172.16.0.9/IntelDumps</string>
     <string name="cot2525C" translatable="false">CoT(Cursor on Target) 2525C</string>
     <string name="s2525C" translatable="false">2525C</string>
-    <string name="default_cot_mapping">Мапінг CoT(Cursor on Target) за замовчуванням</string>
+    <string name="default_cot_mapping">Катрографія CoT(Cursor on Target) за замовчуванням</string>
 
     <string name="preferences_text422a">Прийняти EULA</string>
     <string name="preferences_text422b">Налаштування пристрою TAK</string>
@@ -3466,7 +3466,7 @@
     <string name="bloodhound_text9">Увімкнути функцію автоматичного масштабування, щоб відобразити на карті свою позицію та SPI під час першого запуску інструмента</string>
     <string name="preferences_text123">Назва файлу без розширення (каталог atak/config/prefs)</string>
     <string name="preferences_text273">Якщо увімкнено, у ATAK з\'явиться віджет увімкнення/вимкнення нічного бачення</string>
-    <string name="imagery_change_summ">У цій версії вкладку GRG повністю переміщено до менеджера накладень.\nФайли GRG у форматі TIF або KMZ мають бути розміщені у папці atak/grg або на карті пам\'яті, або у внутрішній пам\'яті.\n\nЕлементи карти на основі зображень (pfps, native, шари) тепер мають бути розміщені у папці atak/imagery або на карті пам\'яті, або у внутрішній пам\'яті.\n\nНакладені продукти, такі як KML, KMZ, LPT, DRW тощо, слід розмістити у папці atak/overlay або на карті пам\'яті, або у внутрішній пам\'яті.</string>
+    <string name="imagery_change_summ">У цій версії вкладку GRG повністю переміщено до розділу управління накладеннями.\nФайли GRG у форматі TIF або KMZ мають бути розміщені у папці atak/grg або на карті пам\'яті, або у внутрішній пам\'яті.\n\nЕлементи карти на основі зображень (pfps, native, шари) тепер мають бути розміщені у папці atak/imagery або на карті пам\'яті, або у внутрішній пам\'яті.\n\nНакладені продукти, такі як KML, KMZ, LPT, DRW тощо, слід розмістити у папці atak/overlay або на карті пам\'яті, або у внутрішній пам\'яті.</string>
 
 
     <string name="callsign_enter_dialogue">Введіть новий позивний</string>
@@ -3508,42 +3508,42 @@
     <string name="rover_sideband_klv">Rover Sideband KLV</string>
     <string name="rover_over_wifi">Rover over WiFi</string>
 
-    <string name="hostile_manager">Ворожий менеджер</string>
-    <string name="nineline_text14">Ви хочете видалити Дев\'яту лінію з цього ворожого?</string>
+    <string name="hostile_manager">Управління ворогом</string>
+    <string name="nineline_text14">Видалити Nine Line з цього ворожого маркера?</string>
     <string name="point_dropper_text39">Торкніться карти, щоб розмістити ворожі маркери.</string>
-    <string name="laser_basket_prompt4">Торкніться цілі. Має бути ворожим.</string>
-    <string name="point_dropper_text40">Встановлено недійсну затримку оновлення SPI. Скидання до значення за замовчуванням 5.</string>
-    <string name="laser_basket_tip">Лазерний кошик</string>
-    <string name="fah_distance_summary">Розмір FAH в морських милях. Примітка: якщо це значення встановлено на 0, цей розмір FAH буде автоматично обчислено як відстань між індикатором і цілью для накладних витрат або значення відстані в рядку 3.</string>
-    <string name="laser_basket_distance">Відстань лазерного кошика (нм)</string>
-    <string name="laser_basket_distance_summary">Розмір лазерного кошика в морських милях. Примітка: якщо це значення встановлено на 0, цей розмір лазерного кошика буде автоматично обчислено як відстань між позначником і цілью.</string>
-    <string name="laser_basket_measurements">Лазерні вимірювання кошика</string>
-    <string name="laser_basket_measurements_summary">Увімкніть або вимкніть вимірювання градусів, що відображаються на Лазерному кошику</string>
-    <string name="fah_on_creation">Автоматично відображати FAH</string>
-    <string name="fah_on_creation_summary">Відображати FAH, коли створюється новий 9-рядковий</string>
-    <string name="fah_reciprocal_on_creation">Автоматично відображати взаємний FAH</string>
-    <string name="fah_reciprocal_on_creation_summary">Відображати взаємний FAH, коли створюється новий 9-рядковий</string>
+    <string name="laser_basket_prompt4">Торкніться ворожої цілі.</string>
+    <string name="point_dropper_text40">Недійсна затримка оновлення SPI. Скидання до значення за замовчуванням 5.</string>
+    <string name="laser_basket_tip">Laser Basket</string>
+    <string name="fah_distance_summary">Size of the FAH in Nautical Miles.   Note:  If this value is set to 0, this size of the FAH will be automatically computed as the distance between the designator and the target for overhead or the distance value in line 3.</string>
+    <string name="laser_basket_distance">Laser Basket Distance (NM)</string>
+    <string name="laser_basket_distance_summary">Size of the laser basket in Nautical Miles.   Note:  If this value is set to 0, this size of the laser basket will be automatically computed as the distance between the designator and the target.</string>
+    <string name="laser_basket_measurements">Laser Basket Measurements</string>
+    <string name="laser_basket_measurements_summary">Увімкніть або вимкніть вимірювання градусів, що відображаються на Laser Basket</string>
+    <string name="fah_on_creation">Автоматично показувати FAH</string>
+    <string name="fah_on_creation_summary">Показати FAH (Foreign Affairs Handbooks), коли створено 9 пунктів запиту про евакуацію</string>
+    <string name="fah_reciprocal_on_creation">Automatically Display Reciprocal FAH</string>
+    <string name="fah_reciprocal_on_creation_summary">Display the Reciprocal FAH when a new 9-line is created</string>
 
-    <string name="nineline_control_prefs">9-рядковий/5-рядковий параметри керування</string>
-    <string name="adjust_nineline_settings">Налаштуйте параметри керування 9-рядковим/5-рядковим</string>
-    <string name="nineline_autostart">Почніть 9-лінійний рядок, як тільки буде розміщено ворожий маркер, використовуючи ворожий дроппер на панелі інструментів</string>
-    <string name="nineline_autostart_type">Установіть, яке 9-рядкове меню відкривати після розміщення</string>
-    <string name="nineline_cot_settings">Конфігурація для відправки 9-ліній через CoT(Cursor on Target)</string>
-    <string name="nineline_cot_title">CoT(Cursor on Target) 9-Line налаштування</string>
-    <string name="nineline_ip_summary">Надсилайте 9-рядкові повідомлення на цю IP-адресу</string>
-    <string name="nineline_display_settings">Налаштування 9-рядкового дисплея</string>
-    <string name="nineline_text95">"Час досягти цілі:"</string>
-    <string name="nineline_text13">Декілька 9-рядковий менеджер</string>
-    <string name="nineline_text18">"9-лінійний"</string>
-    <string name="nineline_text96">Ви отримали оновлення для поточного відкритого \n 9-рядка.</string>
-    <string name="nineline_text97">Будь ласка, виберіть новий колір заголовка для вибраного 9-рядкового маркера.</string>
-    <string name="nineline">Дев\'ятий рядок</string>
+    <string name="nineline_control_prefs">Параметри 9 пунктів/5 пунктів запиту про евакуацію</string>
+    <string name="adjust_nineline_settings">Налаштуйте параметри 9 пунктів/5 пунктів запиту про евакуацію</string>
+    <string name="nineline_autostart">Починати заповнювати 9 пунктів запиту про евакуацію відразу після розміщення ворожого маркера, використовуючи ворожу мітку на панелі вогню</string>
+    <string name="nineline_autostart_type">Установити, яке меню 9 пунктів запиту про евакуацію відкривати після розміщення маркера</string>
+    <string name="nineline_cot_settings">Конфігурація надсилання 9 пунктів запиту про евакуацію через CoT(Cursor on Target)</string>
+    <string name="nineline_cot_title">Налаштування 9 пунктів запиту про евакуацію у CoT(Cursor on Target)</string>
+    <string name="nineline_ip_summary">Надсилати 9 пунктів запиту про евакуацію на цю IP-адресу</string>
+    <string name="nineline_display_settings">Налаштування відображення 9 пунктів запиту про евакуацію</string>
+    <string name="nineline_text95">"Час до цілі: "</string>
+    <string name="nineline_text13">Управління кількома запитами про евакуацію із 9 пунктів</string>
+    <string name="nineline_text18">"9 пунктів запиту про евакуацію "</string>
+    <string name="nineline_text96">Ви отримали оновлення поточного відкритого запиту про евакуацію із \n 9 пунктів.</string>
+    <string name="nineline_text97">Будь ласка, виберіть новий колір заголовка для вибраного маркера запиту про евакуацію із 9 пунктів.</string>
+    <string name="nineline">9 пунктів запиту про евакуацію</string>
 
-    <string name="tak_contact">TAK Contact</string>
-    <string name="public_tak_server">Public TAK Server</string>
-    <string name="support_information">Інформація про підтримку TAK</string>
-    <string name="stale_out_disconnected_users">Виключайте віддалених користувачів, коли вони відключаються від TAK Server</string>
-    <string name="stale_out_disconnected_users_summary">Увімкніть миттєвий вихід віддалених користувачів, коли вони відключаються від TAK Server або коли ви відключаєтеся від TAK Server. Вимкнути використання останнього отриманого застарілого часу.</string>
+    <string name="tak_contact">Контакти TAK</string>
+    <string name="public_tak_server">Публічний сервер TAK</string>
+    <string name="support_information">Підтримка TAK</string>
+    <string name="stale_out_disconnected_users">Деактивувати віддалених користувачів, коли вони відключаються від сервера TAK</string>
+    <string name="stale_out_disconnected_users_summary">Увімкнути миттєву деактивацію віддалених користувачів, коли вони відключаються або коли їх відключають від сервера TAK. Вимкнути використання останнього отриманого застарілого часу.</string>
     <string name="MARTI_sync_server">Сервер TAK</string>
     <string name="tak_server_status">Статус мережі TAK</string>
     <string name="preferences_text118">Постійний інтервал між повідомленнями про власний SA в секундах для надійних протоколів (наприклад, TAK Server)</string>
@@ -3559,32 +3559,32 @@
     <string translatable="false" name="mission_package_folder">datapackage</string>
     <string name="missionpackage_control_prefs">Параметри керування пакетами даних</string>
     <string name="adjust_missionpackage_settings">Налаштуйте параметри пакета даних</string>
-    <string name="mission_package_name">Пакет даних</string>
+    <string name="mission_package_name">Пакет даних (DP)</string>
     <string name="failed_to_create_mission_package">Не вдалося створити пакет даних</string>
     <string name="new_mission_package_name">Нова назва пакета даних</string>
-    <string name="choose_mission_package">Виберіть Пакет даних</string>
+    <string name="choose_mission_package">Виберіть пакет даних</string>
     <string name="checking_mission_package">Перевірка пакета даних: %s</string>
     <string name="checking_if_mission_package_on_server">Перевірка, чи пакет даних уже є на сервері</string>
     <string name="posting_mission_package_to_server">Опублікування пакета даних на сервер: %s</string>
     <string name="posted_mission_package_to_server">Опублікований пакет даних на сервер: %s</string>
-    <string name="failed_to_post_mission_package">Не вдалося опублікувати пакет даних на сервер: %s</string>
+    <string name="failed_to_post_mission_package">Не вдалося опублікувати пакет даних на сервері: %s</string>
     <string name="mission_package_failed_to_extract">Не вдалося витягти пакет даних: %s</string>
-    <string name="processing_mission_package">Пакет даних обробки</string>
+    <string name="processing_mission_package">Обробка пакету даних</string>
     <string name="failed_to_process_mission_package">Не вдалося обробити пакет даних</string>
     <string name="mission_package_download">Завантаження пакету даних</string>
-    <string name="mission_package_download_started">Завантаження пакету даних розпочато…</string>
-    <string name="file_transfer_download_complete">Завантаження пакету даних завершено</string>
+    <string name="mission_package_download_started">Розпочато завантаження пакету даних…</string>
+    <string name="file_transfer_download_complete">Завершено завантаження пакету даних</string>
     <string name="mission_package_upload_started">Розпочато завантаження пакету даних…</string>
     <string name="mission_package_download_failed">Не вдалося завантажити пакет даних</string>
     <string name="mission_package_query_started">Запит пакету даних розпочато…</string>
     <string name="mission_package_query_busy">Запит пакетів даних…</string>
     <string name="mission_package_query_cancelled">Скасовано запит на пакет даних</string>
-    <string name="mission_package_query_failed">Помилка запиту на пакет даних</string>
+    <string name="mission_package_query_failed">Помилка запиту пакету даних</string>
     <string name="mission_package_upload_failed">Не вдалося завантажити пакет даних</string>
     <string name="mission_package_uploaded">Пакет даних завантажено</string>
     <string name="no_mission_packages_available">Немає доступних пакетів даних</string>
-    <string name="no_mission_packages_available2">Немає + пакетів даних</string>
-    <string name="mission_package_no_packages_available">На: %s немає доступних пакетів</string>
+    <string name="no_mission_packages_available2">Немає доступних + пакетів даних</string>
+    <string name="mission_package_no_packages_available">Немає доступних пакетів на: %s</string>
     <string name="mission_package_search_failed">Помилка пошуку пакетів даних</string>
     <string name="mission_package_download_failing">Помилка завантаження пакету даних</string>
     <string name="mission_package_failure">Збій пакету даних</string>
@@ -3607,55 +3607,55 @@
     <string name="search_mission_package">Пакет даних пошуку</string>
     <string name="save_all_modified_mission_packages">Зберегти всі змінені пакети даних?</string>
     <string name="delete_quick_send_mission_package_after_sending">Видалити пакет даних швидкого надсилання після надсилання?</string>
-    <string name="failed_to_create_mission_package_quick_send_cancelled">Не вдалося створити пакет даних. Швидке відправлення скасовано…</string>
-    <string name="failed_to_create_or_send_mission_package_quick_send_cancelled">Не вдалося створити або надіслати пакет даних. Швидке відправлення скасовано…</string>
-    <string name="failed_to_send_mission_package_quick_send_cancelled">Не вдалося надіслати пакет даних. Швидке відправлення скасовано…</string>
+    <string name="failed_to_create_mission_package_quick_send_cancelled">Не вдалося створити пакет даних. Швидке надсилання скасовано…</string>
+    <string name="failed_to_create_or_send_mission_package_quick_send_cancelled">Не вдалося створити або надіслати пакет даних. Швидке надсилання скасовано…</string>
+    <string name="failed_to_send_mission_package_quick_send_cancelled">Не вдалося надіслати пакет даних. Швидке надсилання скасовано…</string>
     <string name="large_mission_package">Великий пакет даних</string>
     <string name="very_large_mission_package">Дуже великий пакет даних</string>
     <string name="tap_map_item_for_mission_package">Торкніться елемента карти для вашого пакета даних</string>
-    <string name="unable_to_determine_mission_package_id">Не вдається визначити ідентифікатор пакета даних</string>
-    <string name="mission_package_added">Додано пакет даних: %s</string>
-    <string name="mission_package_updated">Оновлено пакет даних: %s</string>
-    <string name="no_mission_package_provided">Пакет даних не надається</string>
-    <string name="no_supported_data_selected_to_update_mission_package">Не було вибрано підтримуваних даних для оновлення пакета даних</string>
+    <string name="unable_to_determine_mission_package_id">Не вдається визначити ID пакета даних</string>
+    <string name="mission_package_added">Доданий пакет даних: %s</string>
+    <string name="mission_package_updated">Оновлений пакет даних: %s</string>
+    <string name="no_mission_package_provided">Пакет даних не надано</string>
+    <string name="no_supported_data_selected_to_update_mission_package">Не вибрано підтримуваних даних для оновлення пакета</string>
     <string name="failed_to_update_mission_package">Не вдалося оновити пакет даних</string>
-    <string name="mission_package_task_cancelled">Завдання пакету даних скасовано</string>
+    <string name="mission_package_task_cancelled">Завдання пакета даних скасовано</string>
 
     <!-- Map item select tool -->
     <string name="map_item_select_prompt">Торкніться, щоб вибрати елемент карти.</string>
     <string name="map_item_multiselect_prompt">Торкніться, щоб вибрати або скасувати вибір елементів карти.</string>
     <string name="cannot_select_item">Не вдається вибрати цей елемент.</string>
     <string name="map_select">Вибір карти</string>
-    <string name="file_select">Виберіть файл</string>
-    <string name="choose_selection_method">Виберіть спосіб вибору:</string>
-    <string name="map_click_select_prompt">Торкніться десь на карті або елементі карти.</string>
+    <string name="file_select">Вибір файлу</string>
+    <string name="choose_selection_method">Спосіб вибору:</string>
+    <string name="map_click_select_prompt">Торкніться будь-якого місця на карті.</string>
 
-    <string name="internal_network_config_summary">Спробуйте конфігурувати мережу безпосередньо підключеного пристрою.\nПримітка: не рекомендується, щоб ATAK обробляв конфігурацію внутрішньої мережі USB-пристроїв Ethernet. Це краще справляється з зовнішньою програмою, як-от програмою для моніторингу мережі, яку можна знайти в розділі Налаштування: Програми. Зовнішній моніторинг з\'єднання краще впорається з мережевими роз\'єднаннями та повторними підключеннями.</string>
-    <string name="app_mgmt_auto_sync_details">Увімкніть, щоб перевірити наявність оновлень програми під час запуску. Вимкнути, щоб перевірити лише після оновлення версії ATAK</string>
+    <string name="internal_network_config_summary">Спробуйте налаштувати мережу безпосередньо підключеного пристрою.\nПримітка: не рекомендується, щоб ATAK обробляв конфігурацію внутрішньої мережі USB-пристроїв ethernet. Краще це робити за допомогою зовнішньої програми для моніторингу мережі (Network Monitor), яку можна знайти у розділі Налаштування: Програми. Зовнішній моніторинг з\'єднання краще опрацьовує відключення мережі та повторні підключення.</string>
+    <string name="app_mgmt_auto_sync_details">Увімкнути, щоб перевіряти наявність оновлень під час запуску програми. Вимкнути, щоб виконувати перевірку лише після оновлення версії ATAK</string>
     <string name="app_mgmt_text1">Менеджер пакетів TAK</string>
     <string name="app_mgmt_bundled">Програми підтримки ATAK в комплекті</string>
     <string name="app_mgmt_settings">Налаштування менеджера пакетів TAK</string>
     <string name="app_mgmt_app_plugins">Додатки і плагіни TAK</string>
-    <string name="app_mgmt_update_server_details">Увімкніть, щоб дозволити оновлення по повітрю з віддаленого сервера оновлення TAK</string>
+    <string name="app_mgmt_update_server_details">Увімкнути, щоб дозволити оновлення по повітрю з віддаленого сервера оновлення TAK</string>
     <string name="app_mgmt_edit_remote_repo">Редагувати URL-адресу віддаленого сервера оновлення TAK</string>
-    <string name="app_mgmt_update_server_truststore">Оновлення сервера SSL/TLS Розташування TrustStore</string>
-    <string name="app_mgmt_update_server_truststore_details">Сховище ключів PKCS12 з центрами сертифікації сервера оновлення (файл .p12)</string>
-    <string name="app_mgmt_update_server_truststore_password">Оновити пароль SSL/TLS сервера TrustStore</string>
+    <string name="app_mgmt_update_server_truststore">Оновлення розташування Server SSL/TLS TrustStore</string>
+    <string name="app_mgmt_update_server_truststore_details">The PKCS12 keystore with your Update Server Certificate Authorities (.p12 file)</string>
+    <string name="app_mgmt_update_server_truststore_password">Оновити пароль до Server SSL/TLS TrustStore</string>
     <string name="app_mgmt_text4">Оновлено одну або кілька програм або плагінів TAK. Бажаєте переглянути та встановити оновлення зараз?</string>
     <string name="app_mgmt_text5">Відскановано доступні програми та плагіни TAK</string>
     <string name="preferences_text377">NGA Memorandum for Record (PFI)</string>
-    <string name="changeLog">Журнал змін випуску ATAK</string>
+    <string name="changeLog">Логи змін релізу ATAK</string>
     <string name="userManual">Посібник користувача ATAK</string>
-    <string name="tool_text35">Важлива примітка. Цей пристрій не має акселерометра. Це означає, що ATAK може працювати некоректно в усіх випадках.</string>
-    <string name="tool_text37">Важлива примітка. Цей пристрій не має внутрішнього компаса. ATAK не зможе визначити напрямок під час виконання треку вгору, коли рухається повільно або стоїть на місці. У цих випадках буде показано, що Північ піднявся.</string>
-    <string name="tool_text39">Важлива примітка. Цей пристрій не має внутрішнього GPS-приймача. Це означає, що ATAK може отримувати дані GPS лише із зовнішніх джерел.</string>
+    <string name="tool_text35">Важлива примітка. Цей пристрій не має акселерометра, тому ATAK може працювати некоректно.</string>
+    <string name="tool_text37">Важлива примітка. Цей пристрій не має внутрішнього компаса. ATAK не зможе визначити напрямок під час повільного трекінгу або зупинки. У цих випадках буде показано, що північ вгорі.</string>
+    <string name="tool_text39">Важлива примітка. Цей пристрій не має внутрішнього GPS-приймача. ATAK може отримувати дані GPS лише із зовнішніх джерел.</string>
 
 
     <string name="wave_relay_callsign">Використовуйте позивний Wave Relay</string>
 
-    <string name="wave_relay_callsign_summary">Якщо є, використовуйте позивний радіо WR для глузування</string>
-    <string name="wave_relay_gps">GPS, що надається мережею (хвильове реле тощо)</string>
-    <string name="wave_relay_mocking">Можна використовувати для налаштування джерела даних GPS. За замовчуванням він використовує зовнішню інформацію GPS, інакше він повертається до внутрішнього GPS.</string>
+    <string name="wave_relay_callsign_summary">If available use the Callsign of the WR radio for mocking</string>
+    <string name="wave_relay_gps">Наданий мережею GPS (Wave Relay тощо)</string>
+    <string name="wave_relay_mocking">Можна використовувати для налаштування джерела даних GPS. За замовчуванням він використовує зовнішню інформацію GPS, в інших випадках використовує внутрішню GPS.</string>
 
 
     <string name="app_desc">Рухливі карти та ситуаційна обізнаність для ОС Android</string>
@@ -3718,7 +3718,7 @@
     <string name="pound_ekia" translatable="false"># EKIA</string>
     <string name="yes_restart">Так, перезапустіть.</string>
     <string name="no_restart_later">Ні, я перезавантажу пізніше.</string>
-    <string name="bullseye_radius">Яблучний радіус</string>
+    <string name="bullseye_radius">Радіус мішені</string>
     <string name="number_8089" translatable="false">8089</string>
     <string name="area">Площа</string>
     <string name="created_by">Створено: %s</string>
@@ -3849,40 +3849,40 @@
     <string name="create_encryption_passphrase">Будь ласка, виберіть нову парольну фразу шифрування для ваших даних.</string>
     <string name="initial_encryption_passphrase">Будь ласка, виберіть нову парольну фразу шифрування для ваших даних. Після успішної зміни парольної фрази програма закриється.</string>
     <string name="autogenerate">Автогенерувати</string>
-    <string name="user_supplied_stronger">Надається користувачем (сильніше)</string>
-    <string name="ft_mi">Ft / Mi</string>
+    <string name="user_supplied_stronger">User Supplied (Stronger)</string>
+    <string name="ft_mi">Ft/Mi</string>
     <string name="host_hint">Хост (наприклад: \"192.168.0.2\")</string>
     <string name="port_hint">Порт (залиште пустим, щоб використовувати за замовчуванням)</string>
     <string name="server_hint">Шлях до сервера (наприклад: \"/uploads\")</string>
     <string name="username_hint">Ім\'я користувача (необов\'язково)</string>
     <string name="password_hint">Пароль (необов\'язково)</string>
-    <string name="unknown_agl">Невідомий гл</string>
+    <string name="unknown_agl">Unknown agl</string>
     <string name="no_targets">Немає цілей</string>
     <string name="connection_string">рядок підключення</string>
     <string name="connection_version" translatable="false">connection version</string>
     <string name="chat_255_255_255_255_12345">Чат: 255.255.255.255:12345</string>
     <string name="point_255_255_255_255_12345">Точка: 255.255.255.255:12345</string>
-    <string name="custom_cue">виберіть попередній набір або введіть спеціальну репліку</string>
-    <string name="push_vulos_sa_configuration">Натисніть конфігурацію VULOS SA</string>
+    <string name="custom_cue">виберіть набір або введіть спеціальну репліку</string>
+    <string name="push_vulos_sa_configuration">Push VULOS SA Configuration</string>
     <string name="locally_report_n_testing">Локальний звіт (тестування)</string>
     <string name="start_address_hint">початкова адреса</string>
     <string name="destination_address_hint">адреса призначення</string>
-    <string name="north_west">північний захід</string>
-    <string name="north">Північний</string>
+    <string name="north_west">Північний захід</string>
+    <string name="north">Північ</string>
     <string name="north_east">Північний схід</string>
     <string name="west">Захід</string>
-    <string name="east">Східний</string>
-    <string name="south_west">На південний захід</string>
+    <string name="east">Схід</string>
+    <string name="south_west">Південний захід</string>
     <string name="south">Південь</string>
     <string name="south_east">Південний схід</string>
-    <string name="building_id">Ідентифікатор будівлі:</string>
-    <string name="enter_building_id">Введіть ідентифікатор будівлі</string>
-    <string name="men">Але</string>
-    <string name="men_abbreviation">М</string>
-    <string name="children_abbreviation">C</string>
-    <string name="phone_abbreviation">п</string>
-    <string name="women_abbreviation">IN</string>
-    <string name="phones">телефони</string>
+    <string name="building_id">ID будівлі:</string>
+    <string name="enter_building_id">Введіть ID будівлі</string>
+    <string name="men">Чоловіки</string>
+    <string name="men_abbreviation">Ч</string>
+    <string name="children_abbreviation">Д</string>
+    <string name="phone_abbreviation">Т</string>
+    <string name="women_abbreviation">Ж</string>
+    <string name="phones">Телефони</string>
     <string name="children">Діти</string>
     <string name="women">Жінки</string>
 
@@ -3903,12 +3903,12 @@
     <string name="quit">Вийти</string>
     <string name="remove_and_quit">Видалити та вийти</string>
     <string name="encrypted_removal">Видалення зашифрованих даних</string>
-    <string name="encrypted_removal_message">Це назавжди видалить зашифровані бази даних із системи. Ти впевнений?</string>
+    <string name="encrypted_removal_message">Видалити зашифровані бази даних із системи назавжди?</string>
 
     <string name="rectangle_main_prompt">Перетягніть кут або сторону прямокутника.</string>
     <string name="rectangle_tap_prompt">Торкніться нового розташування для цієї точки.</string>
 
-    <string name="atakDatasets">Інструкції з набору даних ATAK</string>
+    <string name="atakDatasets">Інструкції до набору даних ATAK</string>
     <string name="current_color">Поточний колір</string>
 
     <string name="export_to_missionpackage">Виберіть із визначених користувачем панелей інструментів</string>
@@ -3916,28 +3916,28 @@
     <string name="continuous_rendering">Безперервний рендеринг</string>
     <string name="continuous_rendering_summary">Безперервний рендеринг — це застаріла модель для оновлення графіки на екрані, і була замінена більш ефективним механізмом візуалізації. Увімкніть цю функцію, лише якщо під час використання програмного забезпечення спостерігаються проблеми з відтворенням.</string>
     <string name="developer_tools">Інструменти розробника</string>
-    <string name="developer_tools_summary">Увімкніть інструменти розробника в диспетчері накладень</string>
+    <string name="developer_tools_summary">Увімкніть інструменти розробника у розділі управління накладеннями</string>
 
-    <string name="resection_workflow">Робочий процес резекції</string>
-    <string name="resection">Резекція</string>
-    <string name="resection_options">Параметри резекції</string>
-    <string name="actionbar_resection">Резекція</string>
+    <string name="resection_workflow">Послідовність дій для орієнтації</string>
+    <string name="resection">Орієнтація</string>
+    <string name="resection_options">Параметри орієнтації</string>
+    <string name="actionbar_resection">Орієнтація</string>
     <string name="resection_bearing_title">Кут: %1$s -> %2$s</string>
     <string name="resection_new_landmark">Новий орієнтир</string>
-    <string name="resection_classic_tool_description">Класична резекція. Бере лінії пеленга від точки спостерігача до 2 або більше орієнтирів</string>
-    <string name="resection_classic_tool_ideal_conditions">Коли є орієнтири, ви можете визначити та зіставити з картою. Найвища точність, коли кут між орієнтирами наближається до 90 градусів</string>
-    <string name="resection_classic_tool_relative_accuracy">Залежить від того, наскільки точно визначено орієнтири і відносні пеленги</string>
+    <string name="resection_classic_tool_description">Класична орієнтація. Беруться лінії кута від точки спостерігача до 2 або більше орієнтирів</string>
+    <string name="resection_classic_tool_ideal_conditions">Коли є орієнтири, ви можете визначити та зіставити їх з картою. Найвища точність досягається, коли кут між орієнтирами наближається до 90 градусів</string>
+    <string name="resection_classic_tool_relative_accuracy">Залежить від того, наскільки точно визначено орієнтири і відносні кути</string>
 
     <string name="no_data_found">даних щодо цієї області не знайдено</string>
     <string name="no_mobile_data_found">мобільних даних чи вказівників не знайдено</string>
     <string name="send_chat">Надіслати як чат</string>
 
-    <string name="metric_plugin_hint">Реєстрація метрик</string>
-    <string name="metric_plugin_hint_message">Журнал метрик увімкнено для збору діагностичної інформації та деталей використання. Дані метрики можна за бажанням завантажити на сервер TAK, щоб допомогти покращити ATAK.</string>
-    <string name="metricreport_pref">Налаштування журналу метрик</string>
-    <string name="networklogging_pref">Налаштування мережевого журналу</string>
-    <string name="metricreport_summary">Дозволяє налаштувати звіт про показники, щоб збиралася лише необхідна інформація.</string>
-    <string name="metricreport">Увімкнути збір і запис даних про використання та показники в каталозі: support/logs\nЗверніть увагу, що це призведе до зниження продуктивності програми через споживання системних ресурсів.</string>
+    <string name="metric_plugin_hint">Логування метрик</string>
+    <string name="metric_plugin_hint_message">Логування метрик увімкнено для збору діагностичної інформації та деталей використання. Дані метрики можна за бажанням завантажити на сервер TAK, щоб допомогти покращити додаток ATAK.</string>
+    <string name="metricreport_pref">Налаштування логування метрик</string>
+    <string name="networklogging_pref">Налаштування мережевого логування</string>
+    <string name="metricreport_summary">Дозволяє налаштувати звіт про метрики, щоб збирати лише необхідну інформацію.</string>
+    <string name="metricreport">Увімкнути збір і запис даних про використання та метрики в каталозі: support/logs\nЗверніть увагу, що це призведе до зниження продуктивності програми через споживання системних ресурсів.</string>
     <string name="metric_live">Увімкнути періодичне надсилання даних про використання та показники на TAK Server під час роботи програми. Це буде споживати більше, ніж звичайну пропускну здатність.</string>
     <string name="metric_report_title">Збирайте показники</string>
     <string name="metric_live_title">Живі метрики</string>
@@ -3952,8 +3952,8 @@
     <string name="advanced_logging_disclaimer_title">Вплив журналу на продуктивність</string>
     <string name="advanced_logging_disclaimer_summary">Зауважте, що ведення журналів і збір показників призведе до зниження продуктивності програми. Слід подбати про те, щоб увімкнути ці налаштування лише під час діагностичного періоду, і вони повинні залишатися вимкненими під час звичайного використання програми через споживання системних ресурсів.</string>
 
-    <string name="select_new_location">Виберіть Нове розташування</string>
-    <string name="line3_custom">На замовлення</string>
+    <string name="select_new_location">Виберіть нове розташування</string>
+    <string name="line3_custom">Custom</string>
 
     <string name="ssequickslant">SSE Quick Slant</string>
     <string name="deletesseslant">Видалити SSE Slant</string>
@@ -3968,33 +3968,33 @@
     <string name="resection_location">РОЗТАШУВАННЯ</string>
     <string name="resection_bearing">КУТ</string>
 
-    <string name="derived_from">"Походить з: "</string>
+    <string name="derived_from">"Отримано з: "</string>
     <string name="mission_package_created">Пакет даних створено</string>
     <string name="mission_package_received_from">Пакет даних отримано від %s</string>
 
     <string name="my_plugins_summary">Торкніться, щоб вибрати плагіни TAK</string>
     <string name="my_servers">ТАК Сервери</string>
-    <string name="my_servers_summary">Торкніться, щоб налаштувати підключення TAK Server</string>
-    <string name="no_servers_title">Мережні підключення</string>
+    <string name="my_servers_summary">Торкніться, щоб налаштувати серверні підключення TAK</string>
+    <string name="no_servers_title">Мережеві підключення</string>
     <string name="no_servers_summary">Торкніться, щоб налаштувати сервер TAK і мережеві підключення</string>
-    <string name="no_servers_message">Імпортуйте пакет даних TAK Server, додайте TAK Server вручну або керуйте розширеними мережевими з\'єднаннями</string>
-    <string name="add_tak_server">Додати НЕ сервер</string>
+    <string name="no_servers_message">Імпортуйте пакет даних сервера TAK, додайте сервер TAK вручну або керуйте розширеними мережевими з\'єднаннями</string>
+    <string name="add_tak_server">Додати сервер TAK</string>
     <string name="import_mission_package">Імпорт пакету даних</string>
-    <string name="advanced_network_settings">Мережні підключення</string>
+    <string name="advanced_network_settings">Мережеві підключення</string>
     <string name="choose_config_method">Параметри конфігурації пристрою:</string>
     <string name="more_settings">Більше налаштувань</string>
-    <string name="fav_notif_title">Вибрана карта %s</string>
+    <string name="fav_notif_title">Map Favorite %s</string>
     <string name="fav_notif_msg">Торкніться, щоб переглянути %s</string>
 
     <string name="untitled_item">[Елемент без назви]</string>
-    <string name="loading_model">Модель завантаження</string>
+    <string name="loading_model">Завантаження моделі</string>
     <string name="files_count">%d файлів</string>
-    <string name="remove_from_package">Вийняти з упаковки</string>
+    <string name="remove_from_package">Видалити з пакета</string>
     <string name="remove_from_map">Видалити з карти</string>
     <string name="video_meta_tgt">TGT --- -- ----- -----</string>
 
     <string name="circle_warning_max_radius">Попередження: радіус перевищує максимальний геодезичний радіус Землі</string>
-    <string name="circle_warning_min_radius">Попередження: радіус має бути більше 0</string>
+    <string name="circle_warning_min_radius">Попередження: радіус має бути більшим за 0</string>
 
     <!--Contour Lines-->
     <string name="contour_interval">Інтервал</string>
@@ -4003,7 +4003,7 @@
     <string name="contour_line_color">Колір лінії</string>
     <string name="contour_show_contour">Лінії</string>
     <string name="contour_show_major">Основні лінії</string>
-    <string name="contour_show_minor">Другорядні рядки</string>
+    <string name="contour_show_minor">Другорядні лінії</string>
     <string name="contour_show_label">Підписи</string>
     <string name="contour_show">Показати</string>
     <string name="contour_gen_contour">Згенерувати</string>
@@ -4013,28 +4013,28 @@
     <!-- Map controls -->
     <string name="map_controls">Елементи керування картою</string>
     <string name="imagery_transparency">Прозорість зображень на карті</string>
-    <string name="globe_display">Увімкнути режим відображення глобуса</string>
-    <string name="globe_display_summary">За замовчуванням Земля відображається як глобус. Якщо вимкнено, відображати землю сплющеною за допомогою рівнопрямокутної проекції карти.</string>
+    <string name="globe_display">Увімкнути режим глобуса</string>
+    <string name="globe_display_summary">За замовчуванням Земля відображається як глобус. Якщо вимкнено, відображати карту Землі плоскою за допомогою еквідистантної циліндричної проекції.</string>
     <string name="enable_dex_controls">Увімкнути DEX Friendly Controls</string>
-    <string name="enable_dex_controls_summary">Відображайте тривимірні елементи керування та масштабування, щоб дозволити користувачеві виконувати дії мультитач</string>
+    <string name="enable_dex_controls_summary">Відображайте елементи керування тривимірністю та масштабуванням для дій мультитач</string>
     <string name="dex_options">Параметри DEX</string>
     <string name="basic_display_settings">Основні налаштування дисплея</string>
-    <string name="usability_settings">Налаштування зручності використання</string>
-    <string name="enable_faux">Увімкніть штучну панель навігації</string>
-    <string name="enable_faux_reverse">Переверніть кнопки на панелі штучної навігації</string>
-    <string name="enable_faux_reverse_summ">Перевертає кнопки на панелі штучної навігації так, щоб кнопка «Назад» була внизу в альбомній орієнтації та ліворуч у книжковій.</string>
+    <string name="usability_settings">Налаштування зручності</string>
+    <string name="enable_faux">Enable the Faux Navigation Bar</string>
+    <string name="enable_faux_reverse">Reverse the buttons on the Faux Navigation Bar</string>
+    <string name="enable_faux_reverse_summ">Reverses the buttons on the faux nav bar so that the back button is at the bottom in landscape and on the left in portrait.</string>
     <string name="rendering_3d_options">3-D / Параметри візуалізації</string>
     <string name="coloring_and_tinting">Колір / Тонування</string>
     <string name="other_misc_display_options">Інші різні параметри відображення</string>
-    <string name="hsppplink">Підтримка високошвидкісного зв\'язку "точка-точка".</string>
-    <string name="hsppplink_summary">Якщо вибрано, з\'єднання "точка-точка" в системі вважається високошвидкісним. Це не можна вмикати, якщо не вказується. Нові радіоприймачі здатні підтримувати високошвидкісні тунелі, які розташовані «точка-точка». Старіші радіоприймачі підтримують послідовні з\'єднання «точка-точка», які не мають високошвидкісних з\'єднань. Для старих радіоприймачів увімкнення цієї функції призведе до перенасиченості каналу, фактично вимикаючи цю можливість.</string>
+    <string name="hsppplink">Підтримка високошвидкісного з\'єднання "точка-точка".</string>
+    <string name="hsppplink_summary">Якщо позначено, то з\'єднання "точка-точка" в системі вважається високошвидкісним. Цю опцію не можна вмикати без вказівки. Новіші радіоприймачі здатні підтримувати високошвидкісні тунельні з\'єднання "точка-точка". Старіші радіоприймачі підтримують послідовні з\'єднання "точка-точка" без високошвидкісних можливостей. Для таких старих радіоприймачів увімкнення цієї функції призведе до перенасиченості каналу, фактично вимикаючи з\'єднання.</string>
 
     <!-- Rubber sheet -->
-    <string name="rubber_sheet">Гумовий лист</string>
-    <string name="failed_to_read_image">Не вдалося прочитати зображення: %s</string>
-    <string name="read_image_cancelled">Скасовано читання зображення: %s</string>
-    <string name="creating_rubber_sheet">Створення гумового листа для %s&#8230;</string>
-    <string name="remove_rs_msg">Видалити гумовий лист \'%s\'?</string>
+    <string name="rubber_sheet">Ґумовий аркуш</string>
+    <string name="failed_to_read_image">Не вдалося зчитати зображення: %s</string>
+    <string name="read_image_cancelled">Скасовано зчитування зображення: %s</string>
+    <string name="creating_rubber_sheet">Створення ґумового аркуша для %s&#8230;</string>
+    <string name="remove_rs_msg">Видалити ґумовий аркуш \'%s\'?</string>
     <string name="remove_rs_models_msg">Вилучити %1$d моделі в \'%2$s\'?</string>
     <string name="unable_to_find_sheet">Не вдається знайти аркуш.</string>
     <string name="rotate_sheet_tooltip">За допомогою двох пальців поверніть аркуш на місце.</string>
@@ -4050,9 +4050,9 @@
     <string name="model_projection">Проекція:</string>
     <string name="model_projection_enu" translatable="false">ENU</string>
     <string name="model_projection_lla" translatable="false">LLA</string>
-    <string name="model_flip_y_z">Переверніть Y/Z</string>
+    <string name="model_flip_y_z">Відобразити Y/Z</string>
     <string name="reading_model">Читання \'%s\'&#8230;</string>
-    <string name="file_does_not_exist">Файл не існує: %s</string>
+    <string name="file_does_not_exist">Файлу не існує: %s</string>
     <string name="export_cancelled_for">Експорт скасовано для %s</string>
     <string name="export_finished_title">Експорт завершено</string>
     <string name="export_finished_message1">Завершено експорт \'%1$s\' до:</string>
@@ -4064,8 +4064,8 @@
     <string name="rectangle_color">Колір прямокутника</string>
     <string name="failed_to_read_model">Не вдалося прочитати модель: %s</string>
     <string name="read_model_cancelled">Скасована модель читання: %s</string>
-    <string name="creating_rubber_model">Створення гумової моделі для %s&#8230;</string>
-    <string name="remove_model_msg">Видалити гумову модель \'%s\'?</string>
+    <string name="creating_rubber_model">Створення ґумової моделі для %s&#8230;</string>
+    <string name="remove_model_msg">Видалити ґумову модель \'%s\'?</string>
     <string name="failed_to_export_obj">Не вдалося експортувати OBJ zip</string>
     <string name="exported_obj">Експортовано OBJ zip у %s</string>
     <string name="exporting_obj">Експорт \'%s\' у файл OBJ&#8230;</string>
@@ -4077,18 +4077,18 @@
     <string name="rotation">Обертання</string>
     <string name="scale">Масштаб</string>
     <string name="dimensions">Розміри</string>
-    <string name="length_fmt">Л: %s</string>
-    <string name="width_fmt">Ж: %s</string>
-    <string name="height_fmt">H: %s</string>
+    <string name="length_fmt">Д: %s</string>
+    <string name="width_fmt">Ш: %s</string>
+    <string name="height_fmt">В: %s</string>
     <string name="pitch_fmt">Висота: %s</string>
     <string name="heading_fmt">Заголовок: %s</string>
-    <string name="roll_fmt">Рулон: %s</string>
+    <string name="roll_fmt">Roll: %s</string>
     <string name="scale_fmt" translatable="false">%.2fx</string>
     <string name="pitch">Висота</string>
     <string name="heading">Заголовок</string>
-    <string name="roll">Рулет</string>
+    <string name="roll">Roll</string>
     <string name="rotate">Поворот</string>
-    <string name="drag">Перетягніть</string>
+    <string name="drag">Пересунути</string>
     <string name="relock">Повторне блокування</string>
     <string name="layer_details">Деталі шару</string>
 
@@ -4109,26 +4109,26 @@
 
     <string name="tgtPrefix" translatable="false">TGT</string>
 
-    <string name="permission_warning">Для запуску цієї програми потрібні дозволи, яким раніше було відмовлено. Будь ласка, виберіть \'Дозволити вручну\', щоб перейти на екран налаштувань.\n\nВиберіть Дозволи -> Увімкнути всі перераховані дозволи</string>
+    <string name="permission_warning">Для запуску цієї програми потрібні дозволи, яких не було надано раніше. Будь ласка, виберіть \'Дозволити вручну\', щоб перейти на екран налаштувань.\n\nВиберіть Дозволи -> Увімкнути всі необхідні дозволи</string>
     <string name="permit_manually">Дозволити вручну</string>
-    <string name="stale_item_cleanup">Час очищення застарілих предметів</string>
+    <string name="stale_item_cleanup">Час очищення застарілих елементів</string>
     <string name="attempt_disable_media_scanner">Спробуйте вимкнути медіасканер</string>
 
     <string name="network_data_restriction">Попередження: обмеження мережевих даних увімкнено</string>
     <string name="network_data_restriction_summary">Торкніться та увімкніть «Дозволити використання фонових даних», щоб дозволити програмі отримати доступ до мережі без обмежень.</string>
 
 
-    <string name="ps_restriction">Попередження: обмеження енергозбереження ввімкнено</string>
-    <string name="ps_restriction_summary">Якщо режим енергозбереження ввімкнено, внутрішній GPS може бути вимкнено, коли екран вимкнено</string>
+    <string name="ps_restriction">Попередження: обмеження енергозбереження увімкнено</string>
+    <string name="ps_restriction_summary">Якщо увімкнено режим енергозбереження, внутрішній GPS може вимикатись, коли екран вимкнено</string>
 
     <string name="marker_open_warning">Ви отримали оновлення для поточного відкритого маркера.</string>
 
-    <string name="signature_valid">Підпис для плагіна ДІЙСНИЙ</string>
-    <string name="signature_invalid">Підпис для плагіна НЕДІЙСНИЙ</string>
+    <string name="signature_valid">Підпис до плагіна ДІЙСНИЙ</string>
+    <string name="signature_invalid">Підпис до плагіна НЕДІЙСНИЙ</string>
 
 
-    <string name="unload_plugin_title">Вивантажте плагін %s</string>
-    <string name="unload_plugin_message">"Ви хочете вивантажити %s зараз?"</string>
+    <string name="unload_plugin_title">Вивантажити плагін %s</string>
+    <string name="unload_plugin_message">"Вивантажити %s зараз?"</string>
     <string name="unload_plugin">Вивантажити плагін</string>
     <string name="search_settings">Налаштування пошуку</string>
 
@@ -4142,50 +4142,50 @@
     <string name="new_hashtag">Новий хештег</string>
     <string name="add_to_hashtag">Додати до хештегу: %s</string>
     <string name="tag_items">Позначити елементи: %s</string>
-    <string name="sticky_tags">Липкі теги</string>
-    <string name="sticky_tag_hint">Додати новий липкий тег</string>
+    <string name="sticky_tags">Прикріплені теги</string>
+    <string name="sticky_tag_hint">Додати новий прикріплений тег</string>
 
-    <string name="load_failure_title">Помилка з плагіном: %s</string>
-    <string name="load_failure_summary">Компонент %1$s: %2$s несумісний або не завантажується належним чином. Ви хочете видалити цей плагін зараз?</string>
+    <string name="load_failure_title">Помилка у плагіні: %s</string>
+    <string name="load_failure_summary">Компонент %1$s: %2$s несумісний або не завантажується належним чином. Видалити цей плагін?</string>
     <string name="uninstall">Видалити</string>
 
-    <string name="reason1">Для цього плагіна потрібна версія програмного забезпечення: %1$s, але ви працюєте: %2$s</string>
-    <string name="reason2">Цей плагін не пройшов перевірку підпису.</string>
-    <string name="reason3">Будь ласка, зверніться до інструмента керування пакетами TAK, щоб дізнатися, чому цей плагін несумісний.</string>
+    <string name="reason1">Для цього плагіна потрібна версія програмного забезпечення %1$s, а поточна %2$s</string>
+    <string name="reason2">Цей плагін не пройшов перевірку.</string>
+    <string name="reason3">Будь ласка, скористайтесь інструментом керування пакетами TAK, щоб дізнатися, чому цей плагін несумісний.</string>
 
     <string name="installProduct">Встановити продукт</string>
     <string name="failed_to_install">Не вдалося встановити: %s</string>
     <string name="loadPlugins">Завантажити плагіни</string>
-    <string name="installBegin">Натисніть \'Почати\', щоб встановити %d продуктів, перелічених нижче</string>
+    <string name="installBegin">Натисніть \'Почати\', щоб встановити %d продукт-и(-ів), перелічених нижче</string>
     <string name="installWizardHint">Цей майстер продукту можна використовувати для спрощення встановлення кількох програм і плагінів. На кожному кроці майстра зачекайте завершення попереднього кроку, перш ніж продовжити.</string>
 
-    <string name="uninstallBegin">Натисніть \'Почати\', щоб видалити %d продуктів, перелічених нижче</string>
-    <string name="uninstallWizardHint">Цей майстер продукту можна використовувати для спрощення видалення кількох програм і плагінів. На кожному кроці майстра зачекайте завершення попереднього кроку, перш ніж продовжити.</string>
+    <string name="uninstallBegin">Натисніть \'Почати\', щоб видалити продукти зі списку нижче: %d</string>
+    <string name="uninstallWizardHint">Цього помічника можна використовувати для спрощеного видалення кількох програм і плагінів. На кожному кроці перед продовженням очікуйте завершення попереднього кроку.</string>
 
-    <string name="bt_pair_error">Не вдалося створити пару з %s</string>
-    <string name="bt_classic_time">початок сканування підтримуваних пристроїв Bluetooth\n(може зайняти до 30 секунд)</string>
+    <string name="bt_pair_error">Не вдалося створити з\'єднання з %s</string>
+    <string name="bt_classic_time">початок сканування підтримуваних пристроїв Bluetooth\n(може тривати до 30 секунд)</string>
     <string name="bt_classic_error">не вдається розпочати сканування Bluetooth</string>
-    <string name="bt_le_time">розпочати сканування підтримуваних пристроїв з низьким рівнем енергії Bluetooth\n(може зайняти до 10 секунд)</string>
-    <string name="bt_le_error">не вдається запустити сканування Bluetooth Low Energy</string>
-    <string name="invalid_splash">Виявлено недійсний спеціальний заставка</string>
-    <string name="invalid_splash_size">Завеликий розмір спеціального заставки</string>
-    <string name="invalid_passphrase_tick">Парольна фраза не може містити позначку \'</string>
-    <string name="invalid_passphrase">надано недійсну парольну фразу</string>
-    <string name="invalid_bloodhound_item">не можна шукати цей предмет</string>
-    <string name="plugin_btreader_failed">Збій зчитувача bluetooth, наданого плагіном:</string>
+    <string name="bt_le_time">розпочати сканування підтримуваних пристроїв Bluetooth з низьким енергоспоживанням\n(може тривати до 10 секунд)</string>
+    <string name="bt_le_error">не вдається запустити сканування Bluetooth з низьким енергоспоживанням</string>
+    <string name="invalid_splash">Виявлено неправильно налаштовану заставку</string>
+    <string name="invalid_splash_size">Налаштовано завеликий розмір заставки</string>
+    <string name="invalid_passphrase_tick">Парольна фраза не може містити символ \'</string>
+    <string name="invalid_passphrase">парольна фраза недійсна</string>
+    <string name="invalid_bloodhound_item">бладгаунд не може шукати цей елемент</string>
+    <string name="plugin_btreader_failed">Збій плагіна для зчитування bluetooth:</string>
     <string name="scanning_supported_bt_devices">Сканування підтримуваних пристроїв BT</string>
     <string name="done_searching_no_bt">Пошук завершено, пристроїв BT не знайдено</string>
     <string name="shutting_down_bt">Вимкнення Bluetooth</string>
-    <string name="bt_scan_inprogress">Триває сканування bluetooth</string>
-    <string name="bt_started">запущений bluetooth</string>
-    <string name="bt_stopped">bluetooth зупинився</string>
+    <string name="bt_scan_inprogress">Сканування bluetooth</string>
+    <string name="bt_started">bluetooth увімкнено</string>
+    <string name="bt_stopped">bluetooth вимкнено</string>
     <string name="invalid_value">Недійсне значення</string>
     <string name="unable_adjust_transparency_grg">Неможливо налаштувати прозорість для вибраного GRG</string>
     <string name="uri_missing">Відсутній URI</string>
-    <string name="unable_to_resolve_host">Не вдається визначити хост, чи є у вас підключення до Інтернету?</string>
-    <string name="unexpected_error">Сталася неочікувана помилка.</string>
-    <string name="bullseye_radius_large">Яблучний радіус завеликий</string>
-    <string name="invalid_input">неправильні дані</string>
+    <string name="unable_to_resolve_host">Не вдається визначити хост, перевірте підключення до Інтернету.</string>
+    <string name="unexpected_error">Невідома помилка.</string>
+    <string name="bullseye_radius_large">Радіус мішені завеликий</string>
+    <string name="invalid_input">Неправильно введено</string>
     <string name="background_scanning">Сканування у фоновому режимі...</string>
     <string name="copied_to_clipboard_generic">Скопійовано в буфер обміну...</string>
 
@@ -4194,10 +4194,10 @@
 
     <string name="scanning_apps">Сканування доступних програм і плагінів</string>
     <string name="scanning">Сканування...</string>
-    <string name="pointDroppingBehavior">Поведінка відкидання точки</string>
+    <string name="pointDroppingBehavior">Поведінка додавання точки</string>
     <string name="lockBehavior">Поведінка блокування</string>
-    <string name="forceCenterMoving">Силовий центр під час руху</string>
-    <string name="forceCenterMovingSummary">Увімкнення цього параметра призведе до того, що самомаркер залишатиметься центрованим під час переміщення в режимі відстеження. Це замінює поведінку за замовчуванням, коли піктограму власного обличчя переміщуються в нижню частину екрана під час переміщення, щоб дати користувачеві більший огляд на 360 градусів.</string>
+    <string name="forceCenterMoving">Центрування під час руху</string>
+    <string name="forceCenterMovingSummary">Увімкнення цього параметра центрує вашу позицію під час переміщення в режимі відстеження. При цьому змінюється поведінка за замовчуванням, коли під час руху піктограма місцезнаходження переміщувалась у нижню частину екрана, щоб збільшити кут огляду користувача до 360 градусів.</string>
     <string name="install_date">Дата встановлення</string>
     <string name="update_date">Дата оновлення</string>
     <string name="certificate">Сертифікат</string>
@@ -4209,10 +4209,10 @@
     <string name="_10" translatable="false">(10)</string>
     <string name="_330_5" translatable="false">330.5</string>
     <string name="true_name" translatable="false">TRUE</string>
-    <string name="intersection">перехрестя:</string>
-    <string name="re_routing_options">Варіанти перемаршрутизації:</string>
-    <string name="pitch_button_text">п</string>
-    <string name="rollbuttontext">Р</string>
+    <string name="intersection">Перехрестя:</string>
+    <string name="re_routing_options">Варіанти зміни маршруту:</string>
+    <string name="pitch_button_text">P</string>
+    <string name="rollbuttontext">R</string>
     <string name="no_available_options">Немає доступних варіантів</string>
     <string name="existing">Існуючий</string>
     <string name="route_import">Імпорт маршруту</string>
@@ -4221,88 +4221,88 @@
     <string name="vehicle_outlines">Контури транспортних засобів</string>
     <string name="show_outline">Показати контур</string>
     <string name="outline_only">Тільки контур</string>
-    <string name="breadcrumb_color">Колір панірувальних сухарів</string>
+    <string name="breadcrumb_color">Колір навігаційного ланцюга</string>
 
     <string name="preferences_text172">Швидкість візуалізації</string>
-    <string name="preferences_text173">Відтворюйте на повній швидкості або ліміту, щоб заощадити заряд акумулятора</string>
+    <string name="preferences_text173">Відтворюйте на повній швидкості або обмежуйте її, щоб заощадити заряд акумулятора</string>
 
-    <string name="login_to">Увійдіть до %s</string>
+    <string name="login_to">Увійти до %s</string>
     <string name="show_password">Показати пароль</string>
 
     <string name="http_401_message">Сервер відхилив з\'єднання, оскільки ім\'я користувача або пароль неправильні.</string>
-    <string name="http_403_message">Сервер відмовив у підключенні, оскільки користувач може не мати відповідних дозволів.</string>
+    <string name="http_403_message">Сервер відмовив у підключенні, оскільки користувач не має відповідних дозволів.</string>
 
     <string name="new_folder">Нова папка</string>
     <string name="read_only_location_msg">Це розташування доступне лише для читання.</string>
-    <string name="name_cannot_be_blank">Ім\'я не може бути порожнім.</string>
-    <string name="name_contains_invalid_chars">Ім\'я містить недопустимі символи.</string>
+    <string name="name_cannot_be_blank">Назву потрібно заповнити.</string>
+    <string name="name_contains_invalid_chars">Назва містить недоступні символи.</string>
     <string name="new_folder_failed">Не вдалося створити нову папку.</string>
 
     <string name="show_urls">Показати URL-адреси</string>
-    <string name="next_restart">Налаштування набуде чинності після перезавантаження</string>
-    <string name="redeploy">Перерозподіл</string>
-    <string name="sure_next_restart">Ви впевнені, що хочете повторно розгорнути файли конфігурації WMS за замовчуванням під час наступного перезавантаження?</string>
+    <string name="next_restart">Налаштування спрацюють після перезавантаження</string>
+    <string name="redeploy">Перезаливання</string>
+    <string name="sure_next_restart">Під час наступного перезавантаження ви хочете повторно залити файли конфігурації WMS за замовчуванням?</string>
 
-    <string name="bloodhound_must_be_hounding_start">Треба починати бладхаунда.</string>
-    <string name="bloodhound_must_be_in_route_mode">Для навігації потрібно перебувати в режимі маршруту.</string>
+    <string name="bloodhound_must_be_hounding_start">Бладхаунд мав запуститись.</string>
+    <string name="bloodhound_must_be_in_route_mode">Для навігації потрібно перейти у режим маршруту.</string>
     <string name="bloodhound_open_navigation">Відкрити навігаційний інтерфейс.</string>
     <string name="server_auth_error">Помилка аутентифікації сервера</string>
 
     <string name="civ_enable_grg_interact">Увімкнути взаємодію з картою накладання зображень</string>
-    <string name="civ_enable_grg_interact_summ">Увімкніть, щоб дозволити взаємодію з накладеннями зображень на карті, коли контур видно. Якщо контур не відображається, то з накладенням зображення не можна взаємодіяти. Якщо це невірно, ніякої взаємодії не може відбутися, навіть якщо контур видно.</string>
-    <string name="civ_delete_grg">Видалити накладання зображення</string>
+    <string name="civ_enable_grg_interact_summ">Увімкніть, щоб дозволити взаємодію з накладеними зображеннями на карті, коли видно контур. Якщо контур невидимий, то з накладеними зображеннями не можна взаємодіяти. Якщо опцію вимкнено, взаємодія недоступна, навіть якщо контур видимий.</string>
+    <string name="civ_delete_grg">Видалити накладене зображення</string>
     <string name="civ_grg_file">Файл накладання зображення</string>
     <string name="civ_grg_lowercase">накладання зображення</string>
 
-    <string name="civ_SPI_prompt">Натисніть кнопку DP, щоб перемикатися між рухомим і закріпленим станом. Довго натисніть, щоб видалити.</string>
-    <string name="civ_fire_control_prefs">Налаштування панелі інструментів цифрового вказівника</string>
-    <string name="civ_fires_prefs">Параметри цифрового покажчика</string>
-    <string name="civ_adjust_fire_settings">Налаштуйте параметри для панелі інструментів Digital Pointer</string>
+    <string name="civ_SPI_prompt">Натисніть кнопку цифрового прицілу, щоб перемикатися між рухомим і закріпленим станом. Довго утримуйте, щоб видалити.</string>
+    <string name="civ_fire_control_prefs">Налаштування панелі інструментів цифрового прицілу</string>
+    <string name="civ_fires_prefs">Параметри цифрового прицілу</string>
+    <string name="civ_adjust_fire_settings">Налаштуйте параметри для панелі інструментів цифрового прицілу</string>
 
     <string name="civ_cot2525C" translatable="false">Markers</string>
     <string name="civ_s2525C">Маркери</string>
 
-    <string name="civ_default_cot_mapping">Відображення за замовчуванням</string>
+    <string name="civ_default_cot_mapping">Картографія за замовчуванням</string>
 
     <string name="tadilj_settings">Налаштування каналу передачі даних</string>
-    <string name="tadilj_id">Мій ідентифікатор каналу даних</string>
-    <string name="tadilj_id2">Ідентифікатор каналу передачі даних</string>
-    <string name="tadilj_self_type">Який тип повідомлення лінії даних надсилати для повідомлень SA</string>
-    <string name="tadilj_track_block">Це початок блоку ідентифікаторів зв\'язку даних, які слід автоматично призначати противникам</string>
-    <string name="tadilj_settings_summary">Керуйте налаштуваннями для повідомлень Datalink</string>
-    <string name="managePersistedIdsSummary">Торкніться, щоб керувати ідентифікаторами постійних посилань даних</string>
+    <string name="tadilj_id">Мій Id каналу даних</string>
+    <string name="tadilj_id2">Id каналу передачі даних</string>
+    <string name="tadilj_self_type">Який тип повідомлення каналу передачі даних надсилати для повідомлень self-SA</string>
+    <string name="tadilj_track_block">This is the start of the block of Datalink IDs that should be auto-assigned to hostiles</string>
+    <string name="tadilj_settings_summary">Налаштування повідомлень каналу передачі даних</string>
+    <string name="managePersistedIdsSummary">Торкніться, щоб керувати ідентифікаторами постійних каналів даних</string>
     <string name="showTadiljIdsTitle">Показати ідентифікатори каналів передачі даних</string>
-    <string name="showTadiljIdsSummary">Якщо поставлено прапорець, на карті відображатимуться ідентифікатори зв\'язку даних інших користувачів</string>
+    <string name="showTadiljIdsSummary">Якщо позначено, інші користувачі бачитимуть на карті ідентифікатори каналу даних</string>
     <string name="replaceTadiljIdsCallsignTitle">Замініть s на ідентифікатор каналу даних</string>
-    <string name="replaceTadiljIdsCallsignSummary">На дисплеї самокоординації замініть позивний на ідентифікатор каналу передачі даних</string>
-    <string name="preferences_text438">Скинути зміщення каналу передачі даних</string>
-    <string name="details_text50">"Введіть дані зв\'язку даних: "</string>
-    <string name="details_text52">"Очистити всі контакти Datalink?"</string>
+    <string name="replaceTadiljIdsCallsignSummary">На дисплеї самокоординації замініть позивний на ідентифікатор каналу даних</string>
+    <string name="preferences_text438">Reset Datalink offset</string>
+    <string name="details_text50">"Введіть інформацію каналу даних: "</string>
+    <string name="details_text52">"Очистити всі контакти каналу даних?" </string>
 
-    <string name="civ_stringSPIDesc">Увімкніть інструмент DP.</string>
-    <string name="civ_quick_select_spi">Швидкий вибір DP</string>
+    <string name="civ_stringSPIDesc">Перемикач інструменту ЦП.</string>
+    <string name="civ_quick_select_spi">Швидкий вибір ЦП</string>
 
-    <string name="civ_tool_text31">Цифровий покажчик (DP) має пункт меню, вибраний який дозволяє перетягувати DP по радіусу, щоб виправити проблеми, викликані магнітним компасом у лазерному далекомірі. Червоний конус відображає зміщення на 10 градусів по обидва боки зареєстрованого пострілу, щоб допомогти в корекції.</string>
-    <string name="civ_place_local_spi">Місце Місцевий ДП</string>
-    <string name="civ_spi_update_delay">Період оновлення DP</string>
-    <string name="civ_spi_update_delay_summary">Максимальна затримка між надсиланням оновлень для точки DP, якщо ввімкнено (у секундах), навіть якщо DP не змінено. Переміщення точки DP локально призведе до миттєвого оновлення.</string>
-    <string translatable="false" name="civ_spi_abbrev">DP</string>
+    <string name="civ_tool_text31">Цифровий приціл (ЦП) містить пункт меню, який при виборі дозволяє перетягувати цифровий приціл по радіусу, щоб виправити похибку магнітного компасу в лазерному далекомірі. Червоний конус відображає зміщення на 10 градусів у кожну сторону зареєстрованого пострілу, щоб допомогти з корекцією.</string>
+    <string name="civ_place_local_spi">Розмістити локальний цифровий приціл</string>
+    <string name="civ_spi_update_delay">Період оновлення цифрового прицілу</string>
+    <string name="civ_spi_update_delay_summary">Максимальна затримка (у секундах) між надсиланням оновлень для точки цифрового прицілу. Оновлення надсилатимуться, навіть якщо цифровий приціл не коригувався. Переміщення точки цифрового прицілу локально надішле миттєве оновлення.</string>
+    <string translatable="false" name="civ_spi_abbrev">ЦП</string>
 
-    <string name="civ_bloodhound_text9">Увімкніть функцію автоматичного масштабування, щоб відображати себе та DP у перегляді карти під час першого запуску інструмента</string>
-    <string name="civ_imagery_change_summ">У цій версії вкладку «Накладання зображень» повністю переміщено до диспетчера накладень.\nФайли накладання зображень у форматі файлів TIF або KMZ слід розмістити в папці atak/grg або на карті пам\'яті, або у внутрішній пам\'яті.\n\ nПродукти карти на основі зображень (pfps, native, layers) тепер слід розміщувати в папці atak/imagery або на карті пам\'яті, або у внутрішній пам\'яті.\n\nПродукти накладання, такі як KML, KMZ, LPT, DRW тощо, слід розмістити в папку atak/overlay на SD-карті або внутрішній пам\'яті.</string>
-    <string name="civ_point_dropper_text40">Встановлено недійсну затримку оновлення DP. Скидання до значення за замовчуванням 5.</string>
-    <string name="civ_fireSpiNumber">Кількість ДП</string>
-    <string name="civ_fireSpiNumberSummary">Кількість DP для відображення на панелі інструментів Digital Pointer</string>
-    <string name="civ_spi_redx_fah">DP/RedX FAH Ширина</string>
-    <string name="civ_spi_redx_fah_summary">Встановлює ширину конуса FAH (у градусах), якщо ввімкнено з DP або червоного X (округлює до найближчого кроку 10)</string>
+    <string name="civ_bloodhound_text9">Увімкніть функцію автоматичного масштабування, щоб відображати на карті свою позицію та цифровий приціл під час першого запуску інструмента</string>
+    <string name="civ_imagery_change_summ">У цій версії вкладку "Накладання зображень" повністю переміщено до розділу управління накладеннями.\nФайли накладання зображень у форматі TIF або KMZ слід розміщувати у папці atak/grg або на SD-карті, або у внутрішній пам\'яті пристрою.\n\ nПродукти карти на основі зображень (pfps, native, layers) слід розміщувати у папці atak/imagery або на SD-карті, або у внутрішній пам\'яті пристрою.\n\nПродукти накладання, такі як KML, KMZ, LPT, DRW тощо, слід розміщувати у папці atak/overlay на SD-карті або у внутрішній пам\'яті пристрою.</string>
+    <string name="civ_point_dropper_text40">Встановлено некоректну затримку оновлення цифрового прицілу. Скидання до значення 5 за замовчуванням.</string>
+    <string name="civ_fireSpiNumber">Кількість цифрових прицілів</string>
+    <string name="civ_fireSpiNumberSummary">Кількість цифрових прицілів для відображення на панелі інструментів цифрового прицілу</string>
+    <string name="civ_spi_redx_fah">Цифровий приціл/RedX FAH Ширина</string>
+    <string name="civ_spi_redx_fah_summary">Встановлює ширину конуса FAH (у градусах), якщо ввімкнено з цифрового прицілу або червоного X (округлює до найближчого кроку 10)</string>
 
     <string name="civ_tgtPrefix" translatable="false">R</string>
 
     <!-- already a mil equiv -->
-    <string name="actionbar_firetools">Інструменти цифрового покажчика</string>
+    <string name="actionbar_firetools">Інструменти цифрового прицілу</string>
 
     <!-- possibly unused -->
-    <string name="civ_fire_tools_title">Інструменти цифрового покажчика</string>
+    <string name="civ_fire_tools_title">Інструменти цифрового прицілу</string>
 
     <!-- for filter names -->
     <string name="civ_filter_title_markers">Маркери</string>
@@ -4316,100 +4316,100 @@
 
 
     <string name="dar_encryptor_message">[%s встановлено]</string>
-    <string name="outline_colon">Опис:</string>
-    <string name="chat_message_no_recipients">Зараз у цій групі немає онлайн-користувачів.</string>
-    <string name="pref_save_title">Ім\'я файлу без розширення (каталог atak/config/prefs</string>
-    <string name="pref_billboard_distance_title">Відстань візуалізації рекламного щита</string>
-    <string name="pref_billboard_distance_desc">Під час навігації відображатимуться рекламні щити з вкладеними зображеннями в межах цієї відстані.</string>
-    <string name="pref_billboard_category">Прикріплені білборди</string>
-    <string name="pref_billboard_enabled_title">Показати додані білборди</string>
-    <string name="pref_billboard_enabled_desc">Показувати рекламні щити із вкладеними зображеннями над маркерами, коли активна навігація по маршруту.</string>
-    <string name="plugin_warning">Попередження про плагін</string>
-    <string name="plugin_warning_message">У цій збірці працює один або кілька плагінів, не підписаних офіційно. Офіційно підписані лише плагіни із зеленим щитом.</string>
-    <string name="see_more">Побачити більше</string>
-    <string name="officially_signed">Цей плагін офіційно підписаний.</string>
-    <string name="not_officially_signed">Цей плагін офіційно не підписаний.</string>
+    <string name="outline_colon">Контур:</string>
+    <string name="chat_message_no_recipients">Зараз у цій групі немає користувачів онлайн.</string>
+    <string name="pref_save_title">Назва файлу без розширення (каталог atak/config/prefs)</string>
+    <string name="pref_billboard_distance_title">Відстань до маркера, на якій показувати білборд</string>
+    <string name="pref_billboard_distance_desc">Під час навігації відображатимуться білборди із вкладеними зображеннями у межах вказаної відстані.</string>
+    <string name="pref_billboard_category">Білборди із зображеннями</string>
+    <string name="pref_billboard_enabled_title">Показати білборди із зображеннями</string>
+    <string name="pref_billboard_enabled_desc">Показувати білборди із зображеннями над маркерами, коли активна навігація по маршруту.</string>
+    <string name="plugin_warning">Застереження про плагін</string>
+    <string name="plugin_warning_message">У цій збірці працює один або кілька неофіційних плагінів. Офіційні плагіни позначено зеленим щитом.</string>
+    <string name="see_more">Детальніше</string>
+    <string name="officially_signed">Цей плагін офіційний.</string>
+    <string name="not_officially_signed">Цей плагін неофіційний.</string>
     <string name="elevation_data">Дані про висоту</string>
     <string name="addendum">Додаток</string>
-    <string name="webview_not_installed">Це вікно відображення не підтримується, оскільки Android System Webview не встановлено</string>
+    <string name="webview_not_installed">Це вікно не підтримується, оскільки не встановлено Android System Webview</string>
 
 
-    <string name="use_your_location_title">Використовуйте своє місцезнаходження у фоновому режимі</string>
-    <string name="background_permission_warning">ATAK просить можливість збирати місцезнаходження у фоновому режимі, щоб, коли користувачі запустили ATAK і виконуючи інші дії, він міг продовжувати повідомляти точне місцезнаходження членам команди або в локальній мережі через сервер TAK, який є у користувача. налаштований для використання. Дані надсилаються іншим членам команди, щоб показати точне місцезнаходження особи, яка допомагає координувати такі речі, як реагування на інциденти, надання допомоги при катастрофі та особиста безпека.</string>
-    <string name="background_permission_warning_bullet">\t1) Ці дані не надсилаються розробникам програми.\n\t2) ATAK не збирає дані про місцезнаходження, коли програма не запущена, лише коли вона працює у фоновому режимі.</string>
-    <string name="background_permission_warning_action">Для цього додатка потрібно встановити для дозволу на місцезнаходження \'Дозволити весь час\'</string>
-    <string name="delete_elevation_data_warning">Ви не можете видалити весь набір даних про висоту. Будь ласка, виберіть конкретний набір.</string>
+    <string name="use_your_location_title">Місцезнаходження у фоновому режимі</string>
+    <string name="background_permission_warning">ATAK просить дозволу відстежувати місцезнаходження у фоновому режимі, щоб користувачі могли виконувати інші дії під час роботи ATAK, таким чином можна продовжувати повідомляти точне місцезнаходження членам команди як у локальній мережі, так і через налаштований користувачем сервер TAK. Дані надсилаються іншим учасникам команди, щоб показати точне місцезнаходження кожного з них, допомагаючи координувати реагування на інциденти, надання допомоги при катастрофі та організації особистої безпеки.</string>
+    <string name="background_permission_warning_bullet">\t1) Ці дані не надсилаються розробникам програми.\n\t2) ATAK не збирає дані про місцезнаходження, коли програму не запущено. Відстеження позиції відбувається лише під час роботи у фоновому режимі.</string>
+    <string name="background_permission_warning_action">Цей додаток вимагає дозволу для відстеження розташування пристрою "Дозволяти завжди"</string>
+    <string name="delete_elevation_data_warning">Ви не можете видалити набір даних про висоту повністю. Будь ласка, виберіть конкретний набір.</string>
     <string name="are_you_sure_delete_elevation">Ви впевнені, що хочете видалити дані про висоту %s?</string>
     <string name="delete_elevation_please_lock">Щоб видалити висоту, заблокуйте обидва перемикачі</string>
 
     <string name="resection_update_location_title">Оновити місцезнаходження?</string>
-    <string name="resection_update_location_message">Ви хочете оновити своє місцезнаходження до оцінки повторної секції?\nРозташування: %s</string>
-    <string name="resection_estimate_label">Постачальник: %1$s\nРозташування: %2$s\nВпевненість: %3$s</string>
+    <string name="resection_update_location_message">Оновити місцезнаходження відповідно до оцінки засічки?\nРозташування: %s</string>
+    <string name="resection_estimate_label">Провайдер: %1$s\nРозташування: %2$s\nРівень довіри: %3$s</string>
     <string name="resection_select_estimates_prompt_title">Виберіть, яку оцінку розташування використовувати</string>
-    <string name="resection_run_another_title">Запустити інший інструмент резекції?</string>
-    <string name="resection_run_another_message">Ви хочете запустити інший інструмент резекції, щоб отримати іншу оцінку?</string>
-    <string name="resection_no_estimates_selected">Не було обрано жодної оцінки</string>
+    <string name="resection_run_another_title">Запустити інший інструмент засічки?</string>
+    <string name="resection_run_another_message">Запустити інший інструмент засічки, щоб отримати нову оцінку?</string>
+    <string name="resection_no_estimates_selected">Не вибрано жодної оцінки</string>
 
     <string name="invalid_cot_address">Знайдено недійсний вихід, переконайтеся, що адреса не містить протоколу чи порту</string>
     <string name="image_overlay_hud">Накладання зображення</string>
-    <string name="image_overlay_warning">Ця опція постійно накладає метадані на зображення. Продовжити?</string>
+    <string name="image_overlay_warning">Ця опція завжди додаватиме метадані до зображення. Продовжити?</string>
     <string name="kml_network_link">Мережеве з\'єднання KML</string>
     <string name="kml_links_added_msg">Додано %d мережевих з\'єднань KML</string>
     <string name="kml_links_added_failed_msg">Не вдалося додати мережеві з\'єднання KML</string>
     <string name="import_kml_network_link">Імпорт мережевого з\'єднання KML</string>
-    <string name="kml_link_desc">%1$s (%2$d підпосилання)</string>
+    <string name="kml_link_desc">%1$s (%2$d субпосилання)</string>
     <string name="resection_ideal_conditions_label">Ідеальні умови</string>
     <string name="resection_relative_accuracy_label">Відносна точність</string>
     <string name="resection_details_label">%s Деталі</string>
-    <string name="polygon_area_prompt">Торкніться точок уздовж маршруту, які потрібно вибрати.</string>
-    <string name="lasso_area_prompt">Перетягніть, щоб намалювати ласо навколо цікавить області.</string>
+    <string name="polygon_area_prompt">Для вибору торкніться точок уздовж маршруту.</string>
+    <string name="lasso_area_prompt">Перетягніть, щоб намалювати ласо навколо необхідної області.</string>
     <string name="lasso">Ласо</string>
     <string name="shapes">фігури</string>
     <string name="files">Файли</string>
-    <string name="android_11_warning">Android 11 Попередження</string>
-    <string name="android_11_warning_details">Android 11 обмежує використання GPS у фоновому режимі. Щоб продовжувати публікувати своє місцезнаходження, коли ATAK працює у фоновому режимі, вам потрібно вручну надати ATAK дозвіл \'Дозволити весь час\'. Ви можете отримати доступ до екрану дозволу розташування Android, вибравши запит «Дозволити» у налаштуваннях, коли відображається екран дозволу розташування пристрою.\n\nЗверніть увагу – ATAK не збирає інформацію GPS, поки вона не запущена.</string>
+    <string name="android_11_warning">Попередження Android 11</string>
+    <string name="android_11_warning_details">Android 11 обмежує використання GPS у фоновому режимі. Щоб надавати інформацію про своє місцезнаходження, коли ATAK працює у фоновому режимі, вам потрібно вручну надати ATAK дозвіл "Дозволяти завжди". Надати дозвіл можна у діалоговому вікні доступу до розташування пристрою Android.\n\nЗверніть увагу – ATAK не збирає інформацію GPS, коли програму вимкнено.</string>
 
 
-    <string name="http_code_message">Помилка %d - Якщо ви вважаєте, що це помилка, і не маєте облікових даних для входу, натисніть \'Скасувати\'. Будь ласка, повідомте адміністратора сервера.</string>
-    <string name="address_blank_error">Адреса не може бути пустою</string>
+    <string name="http_code_message">Помилка %d - якщо ви вважаєте це помилкою і не маєте облікових даних для входу, натисніть "Скасувати". Будь ласка, повідомте адміністратора сервера.</string>
+    <string name="address_blank_error">Адресу потрібно заповнити</string>
     <string name="address_invalid_error">Недійсна адреса %s</string>
 
 
-    <string name="location_perm_warning_1">Щоб увімкнути використання GPS, коли ATAK працює, але у фоновому режимі, у вас є два шанси увімкнути це.</string>
-    <string name="location_perm_warning_2">ПОПЕРЕДЖЕННЯ: якщо ви упустите ці шанси, вам потрібно буде зробити це вручну. Android навмисно ускладнює це</string>
-    <string name="location_perm_warning_chance1">Шанс 1: натисніть \'Дозволити в налаштуваннях\'</string>
-    <string name="location_perm_warning_chance2">Шанс 2: натисніть \'Дозволити в налаштуваннях\'</string>
-    <string name="select_with_colon">Виберіть:</string>
-    <string name="location_permission_guidance_1">Щоб увімкнути використання GPS, коли ATAK працює, але у фоновому режимі, виконайте наступні кроки.</string>
+    <string name="location_perm_warning_1">У вас є два способи увімкнути GPS, коли ATAK працює у фоновому режимі.</string>
+    <string name="location_perm_warning_2">ПОПЕРЕДЖЕННЯ: якщо ви не скористаєтесь цими способами, вам потрібно буде увімкнути GPS вручну. Android спеціально ускладнює увімкнення</string>
+    <string name="location_perm_warning_chance1">Спосіб 1: натисніть "Дозволити в налаштування"</string>
+    <string name="location_perm_warning_chance2">Спосіб 2: натисніть "Дозволити в налаштуваннях"</string>
+    <string name="select_with_colon">Вибір:</string>
+    <string name="location_permission_guidance_1">Щоб увімкнути GPS, коли ATAK працює фоновому режимі, виконайте наступні кроки.</string>
     <string name="step_one_with_colon">Крок 1:</string>
     <string name="location_permission_step2">Крок 2:</string>
     <string name="location_permission_step3">Крок 3:</string>
     <string name="general_permission_step1">Крок 1:</string>
-    <string name="general_permission_step2">Крок 2. Перегляньте список заборонених</string>
+    <string name="general_permission_step2">Крок 2. Перегляньте список заборон</string>
 
     <string name="resection_required_data_label">Необхідні дані (наприклад, DTED)</string>
     <string name="resection_required_hardware">Необхідне обладнання (наприклад, PLRF)</string>
-    <string name="resection_classic_tool_required_data">Ніяких спеціальних даних не потрібно</string>
+    <string name="resection_classic_tool_required_data">Жодних спеціальних даних не потрібно</string>
     <string name="resection_classic_tool_required_hardware">Не потрібно спеціального обладнання</string>
 
 
-    <string name="lollipop_visibility">Видимість льодяника під нахилом</string>
+    <string name="lollipop_visibility">Вигляд льодяника під нахилом</string>
     <string name="legacy_altitude_rendering">Покращене сприйняття глибини</string>
-    <string name="disable_parallax_viewing">Покращує візуалізацію глибини при погляді прямо вниз.</string>
-    <string name="lollipop_description">Проводить лінію до точної точки на землі, яку зображує предмет.</string>
-    <string name="self_authored">Самостійний автор</string>
-    <string name="toggle_filters">Увімкніть фільтри</string>
-    <string name="enter_caption_button">Торкніться кнопки «Редагувати», щоб ввести підпис</string>
-    <string name="deleting_dted_files">Видалення файлів %s&#8230;</string>
-    <string name="refreshing">Освіжаючий&#8230;</string>
+    <string name="disable_parallax_viewing">Покращує візуалізацію глибини,якщо дивитись прямо вниз.</string>
+    <string name="lollipop_description">Проводить лінію до відповідної точки позначеного елемента на землі.</string>
+    <string name="self_authored">Створено на цьому пристрої</string>
+    <string name="toggle_filters">Увімкнути фільтри</string>
+    <string name="enter_caption_button">Натисніть кнопку редагування, щоб ввести назву</string>
+    <string name="deleting_dted_files">Видалення файлів: %s&#8230;</string>
+    <string name="refreshing">Оновлення&#8230;</string>
     <string name="select_deletion_method">Виберіть спосіб видалення:</string>
-    <string name="no_content_selectable">Не можна вибрати вміст</string>
+    <string name="no_content_selectable">Неможливо вибрати жодного елемента</string>
     <string name="delete_contents">Видалити вміст</string>
-    <string name="select_lasso_action">Виберіть «Дія ласо».</string>
+    <string name="select_lasso_action">Виберіть дію ласо</string>
     <string name="lasso_select">Вибір ласо</string>
-    <string name="checked_abbr">Chk</string>
+    <string name="checked_abbr">Вибір</string>
     <string name="perimeter">Периметр</string>
     <string name="circumference">Окружність</string>
     <string name="length">Довжина</string>
-    <string name="bulk_feature_edit_limit_msg">Масове редагування понад 500 функцій не підтримується.</string>
+    <string name="bulk_feature_edit_limit_msg">Групове редагування понад 500 функцій не підтримується.</string>
 </resources>
