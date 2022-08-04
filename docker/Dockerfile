@@ -1,0 +1,48 @@
+FROM --platform=linux/amd64 adoptopenjdk/openjdk8
+
+ENV ANDROID_COMPILE_SDK=29
+ENV ANDROID_BUILD_TOOLS=29.0.3
+ENV ANDROID_SDK_TOOLS=4333796
+ENV NDK_VERSION=12b
+ENV ANDROID_NDK_HOME=/android-ndk-r${NDK_VERSION}
+ENV ANDROID_NDK=/android-ndk-r${NDK_VERSION}
+ENV ANDROID_HOME=/android-sdk-linux
+ENV PATH=${PATH}:/android-sdk-linux/platform-tools/
+ENV CMAKE_HOME=/cmake-3.14.7-Linux-x86_64
+
+
+ENV ANDROID_KEYSTORE_FILE=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
+ENV ANDROID_KEYSTORE_ALIAS=key
+ENV ANDROID_KEYSTORE_STORE_PASSWORD=123456
+ENV ANDROID_KEYSTORE_KEY_PASSWORD=123456
+
+RUN apt-get update
+RUN apt-get install -y apg dos2unix autoconf automake g++ libtool patch make cmake ninja-build swig tclsh python3-pip wget unzip git
+RUN pip3 install -U pip setuptools
+RUN pip3 install --upgrade conan
+RUN apt-get clean
+
+
+
+RUN wget --quiet --show-progress --tries=0 --output-document=android-sdk.zip https://dl.google.com/android/repository/sdk-tools-linux-${ANDROID_SDK_TOOLS}.zip;
+RUN unzip -qq -d android-sdk-linux android-sdk.zip;
+RUN mkdir -p ~/.android;
+RUN touch ~/.android/repositories.cfg;
+RUN echo y | android-sdk-linux/tools/bin/sdkmanager "platforms;android-${ANDROID_COMPILE_SDK}"
+RUN echo y | android-sdk-linux/tools/bin/sdkmanager "platform-tools"
+RUN echo y | android-sdk-linux/tools/bin/sdkmanager "build-tools;${ANDROID_BUILD_TOOLS}"
+RUN yes | android-sdk-linux/tools/bin/sdkmanager --licenses
+
+
+
+
+RUN wget --quiet --show-progress --tries=0 --output-document=android-ndk.zip https://dl.google.com/android/repository/android-ndk-r${NDK_VERSION}-linux-x86_64.zip;
+RUN unzip -qq  android-ndk.zip;
+
+
+
+
+RUN wget --quiet --show-progress --tries=0 --output-document=cmake-3.14.7.tar.gz https://cmake.org/files/v3.14/cmake-3.14.7-Linux-x86_64.tar.gz;
+RUN gzip -d cmake-3.14.7.tar.gz;
+RUN tar xf cmake-3.14.7.tar;
+RUN rm -rf cmake-3.14.7.tar;

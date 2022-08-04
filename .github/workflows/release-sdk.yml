@@ -106,36 +106,15 @@ jobs:
         cd atak
         echo "cmake.dir=$CMAKE_HOME" >> local.properties
         rm -rf ATAK/app/build
-        bash ./gradlew assembleCivSdk
+        bash ./gradlew assembleCivRelease
     - name: generate ATAK CIV SDK package
       run: |
-        rm -rf takthirdparty
-        rm -rf takengine
-        rm -rf pluginsdk/
-        unzip -qq pluginsdk.zip
-        cp ./atak/ATAK/app/build/outputs/apk/civ/sdk/*-sdk.apk ./pluginsdk/atak.apk
-        cp ./atak/ATAK/app/build/libs/main.jar ./pluginsdk
-        cp ./atak/ATAK/app/src/main/assets/support/license/LICENSE.txt ./pluginsdk
-        cp -r ./plugin-examples ./pluginsdk/
-        echo "ATAK CIV SDK `git rev-parse --short HEAD` (`git show -s --format=%ct`)" > pluginsdk/VERSION.txt
-        rm -rf javadoc
-        mkdir -p tmp/src
-        cp -R ./atak/ATAK/app/src/common/java/* tmp/src
-        cp -R ./atak/ATAK/app/src/main/java/* tmp/src
-        cp -R ./atak/ATAKMapEngine/lib/src/main/java/* tmp/src
-        pushd .
-        cd tmp/src && javadoc -linkoffline http://d.android.com/reference file://$ANDROID_HOME/docs/reference -d ../javadoc -classpath .:$ANDROID_HOME/platforms/android-${ANDROID_COMPILE_SDK}/android.jar -subpackages . &> /dev/null || echo "success by failure"
-        popd
-        pushd .
-        cd tmp/javadoc && jar cvf ../../pluginsdk/atak-javadoc.jar .
-        popd
-        pushd .
-        cd atak-gradle-takdev
-        chmod 755 gradlew
-        dos2unix gradlew
-        ./gradlew jar
-        cp ./build/libs/atak-gradle-takdev-*.jar ../pluginsdk/atak-gradle-takdev.jar
-        popd
+        ls ./atak/ATAK/app/build/outputs
+        ls ./atak/ATAK/app/build/outputs/apk
+        ls ./atak/ATAK/app/build/outputs/apk/civ
+        ls ./atak/ATAK/app/build/outputs/apk/civ/release
+        mkdir pluginsdk
+        cp ./atak/ATAK/app/build/outputs/apk/civ/release/*-release.apk ./pluginsdk/atak.apk
         mv pluginsdk atak-civ
         zip -qq -r atak-civ-sdk-${{ github.event.release.tag_name }}.zip atak-civ
         rm -rf atak-civ
