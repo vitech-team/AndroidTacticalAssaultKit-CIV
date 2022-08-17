@@ -105,74 +105,74 @@
                         android:nextFocusDown="@+id/coordDialogElevationText"
                         android:inputType="textNoSuggestions" />
 
-        
 
 
-                    <ImageView 
+
+                    <ImageView
                         android:id="@+id/swap"
                         android:gravity="center"
                         android:src="@drawable/swap"
                         android:paddingTop="2dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
-                       
+
 
                 </LinearLayout>
 
 
-                <LinearLayout 
-                       android:orientation="horizontal" 
-                       android:id="@+id/coordDialogUTMView" 
-                       android:paddingTop="2.0dip" 
-                       android:layout_width="fill_parent" 
-                       android:layout_height="wrap_content" 
+                <LinearLayout
+                       android:orientation="horizontal"
+                       android:id="@+id/coordDialogUTMView"
+                       android:paddingTop="2.0dip"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
                        android:weightSum="16.0">
-                    <EditText 
-                       android:ellipsize="end" 
-                       android:gravity="center" 
-                       android:id="@+id/coordDialogUTMGridText" 
-                       android:nextFocusDown="@+id/coordDialogUTMEastingText" 
-                       android:layout_width="0.0dip" 
-                       android:layout_height="wrap_content" 
+                    <EditText
+                       android:ellipsize="end"
+                       android:gravity="center"
+                       android:id="@+id/coordDialogUTMGridText"
+                       android:nextFocusDown="@+id/coordDialogUTMEastingText"
+                       android:layout_width="0.0dip"
+                       android:layout_height="wrap_content"
                        android:hint="@string/zone"
                        android:maxLength="3"
-                       android:layout_weight="3.0" 
+                       android:layout_weight="3.0"
                        android:inputType="textCapCharacters" />
-                    <EditText android:ellipsize="end" 
-                       android:gravity="center" 
-                       android:id="@+id/coordDialogUTMEastingText" 
-                       android:nextFocusDown="@+id/coordDialogUTMNorthingText" 
-                       android:layout_width="0.0dip" 
-                       android:layout_height="wrap_content" 
+                    <EditText android:ellipsize="end"
+                       android:gravity="center"
+                       android:id="@+id/coordDialogUTMEastingText"
+                       android:nextFocusDown="@+id/coordDialogUTMNorthingText"
+                       android:layout_width="0.0dip"
+                       android:layout_height="wrap_content"
                        android:hint="@string/easting"
-                       android:maxLength="6" 
-                       android:layout_weight="6.5" 
+                       android:maxLength="6"
+                       android:layout_weight="6.5"
                        android:inputType="number" />
-                    <EditText android:ellipsize="end" 
-                       android:gravity="center" 
-                       android:id="@+id/coordDialogUTMNorthingText" 
-                       android:nextFocusDown="@+id/coordDialogElevationText" 
-                       android:layout_width="0.0dip" 
-                       android:layout_height="wrap_content" 
+                    <EditText android:ellipsize="end"
+                       android:gravity="center"
+                       android:id="@+id/coordDialogUTMNorthingText"
+                       android:nextFocusDown="@+id/coordDialogElevationText"
+                       android:layout_width="0.0dip"
+                       android:layout_height="wrap_content"
                        android:hint="@string/northing"
-                       android:maxLength="7" 
-                       android:layout_weight="6.5" 
+                       android:maxLength="7"
+                       android:layout_weight="6.5"
                        android:inputType="number" />
-                    <EditText android:ellipsize="end" 
-                       android:gravity="center" 
-                       android:id="@+id/rawUTM" 
-                       android:visibility="gone" 
-                       android:nextFocusDown="@+id/coordDialogElevationText" 
-                       android:layout_width="0.0dip" 
-                       android:layout_height="wrap_content" 
+                    <EditText android:ellipsize="end"
+                       android:gravity="center"
+                       android:id="@+id/rawUTM"
+                       android:visibility="gone"
+                       android:nextFocusDown="@+id/coordDialogElevationText"
+                       android:layout_width="0.0dip"
+                       android:layout_height="wrap_content"
                        android:hint="@string/utm"
                        android:layout_weight="16.0"
                         android:inputType="textNoSuggestions" />
-                    <ImageView android:gravity="center" 
-                       android:id="@+id/swapUTM" 
-                       android:paddingTop="2.0dip" 
-                       android:layout_width="wrap_content" 
-                       android:layout_height="wrap_content" 
+                    <ImageView android:gravity="center"
+                       android:id="@+id/swapUTM"
+                       android:paddingTop="2.0dip"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
                        android:src="@drawable/swap" />
                 </LinearLayout>
 
@@ -536,6 +536,35 @@
                             android:text="@string/find" />
                     </LinearLayout>
                 </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/coordDialogSK42View"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="2dp"
+                    android:weightSum="15">
+
+
+                    <EditText
+                        android:id="@+id/coordDialogSK42Coord1Text"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:hint="Some coord 1"
+                        android:inputType="textCapCharacters|textNoSuggestions"
+                        android:imeOptions="flagForceAscii|flagNoExtractUi"
+                        android:maxLength="3"
+                        />
+
+
+                </LinearLayout>
+
+
 
 
             </FrameLayout>
