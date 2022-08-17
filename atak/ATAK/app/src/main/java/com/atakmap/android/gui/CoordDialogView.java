@@ -51,7 +51,7 @@ import com.atakmap.coremap.maps.coords.GeoPointMetaData;
 import com.atakmap.map.elevation.ElevationManager;
 
 /**
- * 
+ *
  */
 public class CoordDialogView extends LinearLayout implements
         View.OnClickListener, OnTabChangeListener {
@@ -64,6 +64,7 @@ public class CoordDialogView extends LinearLayout implements
     public static final int DMS_TAB = 3;
     public static final int UTM_TAB = 4;
     public static final int ADDRESS_TAB = 5;
+    public static final int SK42_TAB = 6;
 
     private GeoPointMetaData _mapCenter;
 
@@ -105,9 +106,9 @@ public class CoordDialogView extends LinearLayout implements
     private EditText addressET; //Address Edit Text Field
     private EditText _mgrsZone, _mgrsSquare, _mgrsEast, _mgrsNorth, _mgrsRaw;
     private EditText _utmZone, _utmEast, _utmNorth, _utmRaw;
-    private boolean watch = true; // only used to make surce setting the 
+    private boolean watch = true; // only used to make surce setting the
                                   // mgrsRaw does not cycle back around
-    private boolean watchUTM = true; // only used to make surce setting the 
+    private boolean watchUTM = true; // only used to make surce setting the
                                      // utmRaw does not cycle back around
     private EditText _ddLat, _ddLon;
     private EditText _dmsLatD, _dmsLatM, _dmsLatS, _dmsLonD, _dmsLonM,
@@ -858,12 +859,17 @@ public class CoordDialogView extends LinearLayout implements
                     .getDisplayName());
             addyToLatLongTab.setContent(R.id.addyToLatLongTab);
 
+            TabSpec sk42Tab = _host.newTabSpec(CoordinateFormat.SK42.getDisplayName());
+            sk42Tab.setIndicator(CoordinateFormat.SK42.getDisplayName());
+            sk42Tab.setContent(R.id.coordDialogSK42View);
+
             _host.addTab(_mgrsSpec);
             _host.addTab(_ddSpec);
             _host.addTab(_dmSpec);
             _host.addTab(_dmsSpec);
             _host.addTab(_utmSpec);
             _host.addTab(addyToLatLongTab);
+            _host.addTab(sk42Tab);
 
             TabWidget tw = _host.getTabWidget();
             for (int i = 0; i < tw.getChildCount(); i++) {

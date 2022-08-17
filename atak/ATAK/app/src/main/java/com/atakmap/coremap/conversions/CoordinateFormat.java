@@ -12,7 +12,8 @@ public enum CoordinateFormat {
     DM("DM", "Degrees, Minutes", 2),
     DMS("DMS", "Degrees, Minutes, Seconds", 3),
     ADDRESS("ADDR", "Address", 4),
-    UTM("UTM", "Universal Transverse Mercator Coordinate System", 5);
+    UTM("UTM", "Universal Transverse Mercator Coordinate System", 5),
+    SK42("SK42", "SK42 Coordinate System", 6);
 
     private final String _displayName;
     private final String _fullName;
