@@ -11,10 +11,10 @@ import android.widget.Toast;
 import com.atak.plugins.impl.PluginLayoutInflater;
 import com.atakmap.android.dropdown.DropDown.OnStateListener;
 import com.atakmap.android.dropdown.DropDownReceiver;
-import com.atakmap.android.gui.CoordDialogView;
 import com.atakmap.android.maps.MapView;
 import com.atakmap.android.preference.AtakPreferences;
 import com.atakmap.android.sk42support.plugin.R;
+import com.atakmap.android.sk42support.sk42.CoordDialogViewUpgraded;
 import com.atakmap.coremap.conversions.CoordinateFormat;
 import com.atakmap.coremap.maps.coords.GeoPointMetaData;
 
@@ -57,15 +57,16 @@ public class SK42SupportDropDownReceiver extends DropDownReceiver implements
 
         if (action.equals(SHOW_PLUGIN)) {
             AlertDialog.Builder b = new AlertDialog.Builder(getMapView().getContext());
-            LayoutInflater inflater = LayoutInflater.from(this.getMapView().getContext());
+            LayoutInflater inflater = LayoutInflater.from(this.pluginContext);
 
-            final CoordDialogView coordView = (CoordDialogView) inflater.inflate(com.atakmap.app.R.layout.draper_coord_dialog, null);
+            final CoordDialogViewUpgraded coordView = (CoordDialogViewUpgraded) inflater.inflate(R.layout.draper_coord_dialog_upgraded, null);
+            coordView.setMainAppContext(getMapView().getContext());
             b.setTitle(com.atakmap.app.R.string.rb_coord_title)
                 .setView(coordView)
                 .setPositiveButton(com.atakmap.app.R.string.ok,
                     (dialog, which) -> {
                         GeoPointMetaData gp = coordView.getPoint();
-                        if (coordView.getResult() == CoordDialogView.Result.VALID_CHANGED) {
+                        if (coordView.getResult() == CoordDialogViewUpgraded.Result.VALID_CHANGED) {
                             Toast.makeText(getMapView().getContext(), gp.toString(), Toast.LENGTH_LONG).show();
                         }
 
