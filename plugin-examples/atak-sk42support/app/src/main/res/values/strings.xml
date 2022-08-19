@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">SK42 Support</string>
+    <!-- description -->
+    <string name="app_desc">This plugin adds support of SK42 coordinate format</string>
+
+
+    <string name="zone">Zone</string>
+    <string name="square">Площа</string>
+    <string name="easting">Стираємо</string>
+    <string name="northing">На північ</string>
+    <string name="longitude">Довгота</string>
+    <string name="type_in_the_address">Введіть адресу.</string>
+    <string name="find">Знайти</string>
+    <string name="elevation">Висота</string>
+    <string name="ft_msl5">фт MSL</string>
+    <string name="pull_from_dted">Витягнути з DTED</string>
+    <string name="add_address">Додати адресу</string>
+    <string name="auto_fill">Автозаповнення</string>
+    <string name="clear">Очистити вміст</string>
+    <string name="latitude">Широта</string>
+    <string name="apos" translatable="false">\'</string>
+    <string name="apos_apos" translatable="false">\'\'</string>
+    <string name="u00b0" translatable="false">\u00B0</string>
+    <string name="utm" translatable="false">UTM</string>
+    <string name="c_geocoder" translatable="false">©Geocoder</string>
+    <string name="mgrs">MGRS Coordinates</string>
+
+</resources>
