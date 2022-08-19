@@ -1,0 +1,5 @@
+.idea
+plugin-examples/atak-sk42support/app/build
+plugin-examples/atak-sk42support/.gradle
+atak-gradle-takdev.jar
+main.jar
